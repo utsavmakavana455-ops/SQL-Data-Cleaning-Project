@@ -1,0 +1,1001 @@
+record_id,customer_name,gender,age,email,phone,city,category,product,quantity,amount,order_date
+1,Sophia Wolf,Male,32,sophia.wolf77@example.com,+491735815932,Dresden,Sports,Tennis Racket,6,633.06,2026-05-18
+2,Lucy Zimmermann,Male,18,lucy.zimmermann79@example.com,+491553338190,Berlin,Grocery,Coffee,4,38.62,2026-12-03
+3,Sofia Wolf,Male,43,sofia.wolf33@example.com,+491696647385,Hamburg,Home,Backpack,5,342.9,2025-12-15
+4,Ava Lehmann,Female,36,ava.lehmann59@example.com,+491585638859,Stuttgart,Sports,Running Shoes,1,135.56,2026-01-13
+5,Scarlett Zimmermann,Female,23,scarlett.zimmermann52@example.com,+491777606035,Dresden,Electronics,Earbuds,5,498.85,2026-09-07
+6,Sofia Braun,Female,44,sofia.braun73@example.com,+491767263155,Frankfurt,Sports,Yoga Mat,5,155.72,2025-05-13
+7,Olivia Krause,Male,63,olivia.krause80@example.com,+491740537485,Cologne,Clothing,T-Shirt,2,66.11,2025-05-05
+8,Lily Hartmann,Female,53,lily.hartmann52@example.com,+491675156138,Frankfurt,Sports,Water Bottle,4,80.78,2026-02-16
+9,Chloe Hoffmann,Female,35,chloe.hoffmann2@example.com,+491527775402,Munich,Sports,Dumbbells,5,321.97,2026-01-04
+10,Mason Klein,Female,47,mason.klein66@example.com,+491776909202,Dresden,Home,Bedsheet,6,272.12,2025-10-25
+11,Henry Zimmermann,Male,46,henry.zimmermann89@example.com,+491786581579,Hamburg,Home,Chair,4,586.68,2026-05-06
+12,Oliver Klein,Female,41,oliver.klein13@example.com,+491614467891,Stuttgart,Home,Chair,4,601.96,2025-04-05
+13,Liam Zimmermann,Male,57,liam.zimmermann26@example.com,+491643056804,Berlin,Sports,Yoga Mat,5,206.95,2026-11-16
+14,Arthur Wagner,Male,38,arthur.wagner86@example.com,+491774134539,Stuttgart,Clothing,Hoodie,2,116.72,2025-05-15
+15,Jacob Krause,Female,23,jacob.krause54@example.com,+491595964581,Munich,Sports,Running Shoes,5,574.07,2025-06-02
+16,Nora Hoffmann,Female,18,nora.hoffmann14@example.com,+491719029602,Berlin,Electronics,Monitor,6,1688.8,2025-01-27
+17,Emma Krause,Female,38,emma.krause88@example.com,+491673032512,Cologne,Grocery,Coffee,4,56.62,2026-08-09
+18,Aria Becker,Male,55,aria.becker67@example.com,+491621124574,Cologne,Sports,Running Shoes,4,494.7,2026-11-26
+19,Oliver Lehmann,Female,20,oliver.lehmann26@example.com,+491603074041,Berlin,Sports,Yoga Mat,4,160.61,2026-10-19
+20,Mason Hartmann,Male,26,mason.hartmann83@example.com,+491794507522,Munich,Sports,Football,2,61.74,2025-07-10
+21,Oscar Klein,Female,52,oscar.klein54@example.com,+491552229629,Cologne,Grocery,Pasta,3,10.44,2026-04-21
+22,Sofia Kruger,Female,47,sofia.kruger23@example.com,+491684906780,Frankfurt,Home,Blender,1,79.86,2026-06-22
+23,  Harper Weber ,Male,32,harper.weber1@example.com,+491559993201,Cologne,Grocery,Olive Oil,5,61.23,2026-11-18
+24,Mia Meyer,Female,28,mia.meyer46@example.com,+491799039887,Munich,Electronics,Keyboard,6,322.91,2026-08-05
+25,Charlotte Schneider,Female,54,charlotte.schneider35@example.com,+491581198834,Berlin,Grocery,Coffee,4,41.69,2026-12-02
+26,Olivia Neumann,Male,59,olivia.neumann81@example.com,+491567080128,Frankfurt,Grocery,Chocolate,5,28.37,2025-10-26
+27,Henry Becker,Female,34,henry.becker9@example.com,+491517446687,Cologne,Grocery,Olive Oil,1,9.05,2025-08-29
+28,Emma Richter,Male,24,emma.richter88@example.com,+491698069542,Hamburg,Home,Bedsheet,6,248.48,2026-09-22
+29,Noah Braun,Female,56,noah.braun28@example.com,+491758393983, cologne ,Electronics,Smartwatch,3,683.28,2026-11-29
+30,Leo Braun,Female,40,leo.braun8@example.com,+491744473729,Berlin,Grocery,Tea,3,19.23,2025-05-06
+31,EVELYN KRUGER,Female,55,evelyn.kruger3@example.com,+491693869615,Munich,Sports,Yoga Mat,6,251.76,2025-06-16
+32,Aria Weber,Male,20,aria.weber17@example.com,+491790560091,Hamburg,Sports,Water Bottle,6,99.46,2026-03-11
+33,Lucy Wagner,Female,44,lucy.wagner50@example.com,+491712498134,Munich,Home,Backpack,2,144.3,2025-07-07
+34,Harry Meyer,Female,34,harry.meyer19@example.com,+491632543898,Berlin,Electronics,Monitor,5,1482.35,2025-09-28
+35,Henry Wagner,Male,29,henry.wagner71@example.com,+491530405827,Stuttgart,Sports,Running Shoes,3,375.99,2025-11-22
+36,Olivia Meyer,Male,48,olivia.meyer8@example.com,+491629098729,Stuttgart,Sports,Football,6,202.26,2026-02-13
+37,Scarlett Schulz, FEMALE ,39,scarlett.schulz26@example.com,+491711179769,Hamburg,Home,Backpack,4,265.07,2026-05-01
+38,Lucy Richter,Male,28,lucy.richter81@example.com,+491730406030,Munich,Home,Desk,3,840.75,2026-06-20
+39,Theo Schmidt,Male,23,theo.schmidt39@example.com,+491710142181,Frankfurt,Grocery,Pasta,6,26.3,2025-01-19
+40,Harry Hoffmann,Female,54,harry.hoffmann6@example.com,+491721138461,Cologne,Sports,Tennis Racket,6,606.88,2026-06-05
+41,Elijah Fischer,Male,64,elijah.fischer50@example.com,+491689105475,Frankfurt,Grocery,Chocolate,1,5.47,2026-11-10
+42,Mason Becker,Female,36,mason.becker70@example.com,+491663318946,Hamburg,Clothing,T-Shirt,2,69.05,2026-10-07
+43,Liam Koch,Female,,liam.koch46@example.com,+491798499964,Munich,Sports,Yoga Mat,2,64.81,2025-05-29
+44,Emma Weber,Male,41,emma.weber9@example.com,+491707566635,Hamburg,Clothing,Hoodie,2,122.7,2025-09-12
+45,James Weber,Female,49,james.weber14@example.com,+491549261953,Cologne,Grocery,Cereal,3,19.06,2025-12-23
+46,  Jack Hartmann ,Male,53,jack.hartmann67@example.com,+491642621527,Dresden,Grocery,Tea,4,32.68,2025-12-20
+47,Ava Fischer,Male,49, AVA.FISCHER40@EXAMPLE.COM ,+491652433998,Dresden,Clothing,Jeans,3,201.42,2026-07-30
+48,Ella Wolf,Female,43,ella.wolf41@example.com,+491604888318,Munich,Home,Chair,6,903.95,2025-12-25
+49,Theo Schneider,Female,31,theo.schneider20@example.com,+491747120729,Stuttgart,Sports,Water Bottle,6,91.91,2025-10-02
+50,Ella Weber,Female,35,ella.weber57@example.com,+491651531487,Munich,Sports,Water Bottle,3,48.26,2025-05-27
+51,Hannah Weber,Female,36,hannah.weber74@example.com,+491755921212,Stuttgart,Home,Blender,1,80.57,2025-12-04
+52,Theo Wolf,Male,61,theo.wolf99@example.com,+491775581676,Stuttgart,Sports,Tennis Racket,2,184.26,2026-10-26
+53,Ella Schmidt,Female,64,ella.schmidt23@example.com,49 151 000,Hamburg,Sports,Water Bottle,3,46.02,2026-08-16
+54,Jack Hartmann,Female,18,jack.hartmann5@example.com,+491628042402,Stuttgart,Electronics,Smartwatch,3,555.6,2025-08-03
+55,Lily Krause,Female,57,lily.krause81@example.com,+491708338547,Berlin,Sports,Water Bottle,2,36.56,2025-01-12
+56,Elijah Wagner,Female,32,elijah.wagner60@example.com,+491620794547,Frankfurt,Clothing,Dress,3,222.6,2026-03-04
+57,Nora Schneider,Male,24,nora.schneider4@example.com,+491655424734,Cologne,Electronics,Smartphone,5,3822.48,2025-08-25
+58,Jack Wolf,Female,40,jack.wolf41@example.com,+491767532910, hamburg ,Home,Lamp,3,109.98,2026-05-17
+59,James Meyer,Female,41,missing.com,+491760244664,Munich,Grocery,Chocolate,5,28.42,2026-02-14
+60,Charlotte Schneider,Male,44,charlotte.schneider9@example.com,+491783246424,Stuttgart,Sports,Running Shoes,4,498.16,2026-06-06
+61,Nora Koch,Female,49,nora.koch41@example.com,+491692326332,Hamburg,clothing,Jacket,5,681.51,2025-06-28
+62,LEO KRAUSE,Female,58,leo.krause14@example.com,+491625343323,Berlin,Home,Chair,2,250.67,2026-06-24
+63,James Krause,Male,68,james.krause35@example.com,+491772306304,Munich,Sports,Water Bottle,3,51.06,2026-10-29
+64,Grace Lehmann,Male,27,grace.lehmann78@example.com,+491592199066,Stuttgart,Clothing,Jeans,6,426.08,2026-11-14
+65,Noah Klein,Female,29,noah.klein18@example.com,+491653644399,Frankfurt,Grocery,Pasta,4,13.88,2026-12-11
+66,Olivia Becker,Male,44,olivia.becker83@example.com,+491772928394,Frankfurt,Electronics,Monitor,2,601.49,2026-07-10
+67,Ava Zimmermann,Female,125,ava.zimmermann42@example.com,+491588193038,Stuttgart,Sports,Yoga Mat,4,112.42,2025-04-07
+68,Lucy Klein,Female,66,lucy.klein4@example.com,+491597945046,Frankfurt,Clothing,Jacket,4,507.11,2025-07-24
+69,  Lucas Schulz ,Male,60,lucas.schulz64@example.com,+491624199783,Hamburg,Clothing,Hoodie,4,256.87,2026-04-16
+70,Scarlett Hoffmann,Female,58,scarlett.hoffmann95@example.com,+491746479092,Frankfurt,Sports,Dumbbells,1,63.33,2025-08-05
+71,Mason Weber,Male,40,mason.weber92@example.com,+491594861312,BERLIN,Clothing,Jeans,6,403,2026-03-15
+72,Hannah Wagner,Female,36,hannah.wagner95@example.com,+491706079758,Cologne,Electronics,Earbuds,5,437.92,2025-10-07
+73,Arthur Hartmann,Male,24,arthur.hartmann19@example.com,+491629502856,Hamburg,Home,Blender,5,416.02,2025-02-19
+74,Hannah Wolf,male,61,hannah.wolf11@example.com,+491757491142,Cologne,Grocery,Cereal,5,33.85,2025-04-11
+75,Daniel Schmidt,Male,55,daniel.schmidt6@example.com,+491547715333,Frankfurt,Home,Bedsheet,1,37.23,2026-10-23
+76,Charlie Zimmermann,Female,52,charlie.zimmermann3@example.com,+491592196703,Hamburg,Clothing,Jacket,1,113.85,2025-06-22
+77,Harry Klein,Male,20,harry.klein96@example.com,+491548185111,Dresden,Sports,Tennis Racket,1,103.83,2025-12-09
+78,Isabella Richter,Female,33,isabella.richter42@example.com,+491761614345,Stuttgart,Clothing,T-Shirt,2,58.33,2025-11-17
+79,Theo Schmidt,Female,33,theo.schmidt77@example.com,+491608937893,Cologne, Clothing ,Jacket,5,589.36,2026-01-26
+80,Jack Krause,Male,49,jack.krause28@example.com,+491716545503,Stuttgart,Electronics,Keyboard,4,262.87,2025-10-29
+81,Amelia Krause,Female,35,amelia.krause99@example.com,+491741772289,Dresden,Sports,Yoga Mat,3,109.29,2026-06-17
+82,Lucas Krause,Male,54,lucas.krause48@example.com,+491626394687,Frankfurt,Electronics,Keyboard,2,115.98,2025-04-24
+83,Elijah Kruger,Female,18,elijah.kruger32@example.com,+491615572085,Berlin,Grocery,PASTA,5,18.13,2026-01-19
+84,Ava Klein,Male,20,ava.klein28@example.com,+491572110246,Cologne,Sports,Water Bottle,1,16.96,2026-12-12
+85,Lily Krause,Male,30,lily.krause84@example.com,+491768482136,Berlin,Grocery,Coffee,2,25.46,2025-10-13
+86,Charlotte Meyer,Female,unknown,charlotte.meyer83@example.com,+491533410128,Cologne,Grocery,Coffee,6,78.56,2025-06-21
+87,Nora Schneider,Male,49,nora.schneider7@example.com,+491698985270, munich ,Sports,Dumbbells,4,183.7,2025-02-02
+88,Liam Kruger,Female,53,liam.kruger12@example.com,+491746831484,Stuttgart,Sports,Football,2,51.9,2026-07-27
+89,Mason Krause,Female,43,mason.krause36@example.com,+491600686041,Cologne,Electronics,Laptop,zero,2237.77,2025-05-14
+90,Jack Wagner,Female,29,jack.wagner64@example.com,+491571938890,Munich,Electronics,Earbuds,1,105.58,2026-05-25
+91,Theo Schneider,Female,50,theo.schneider46@example.com,+491554679085,Stuttgart,Sports,Yoga Mat,6,189.19,2025-04-29
+92,  Oscar Schulz ,Female,56,oscar.schulz87@example.com,+491606443349,Hamburg,Sports,Yoga Mat,1,32.8,2025-06-29
+93,LILY SCHNEIDER,Male,33,lily.schneider86@example.com,+491763114733,Dresden,Clothing,Hoodie,5,346.06,2026-05-05
+94,Sophia Fischer,Male,18, SOPHIA.FISCHER79@EXAMPLE.COM ,+491793176526,Hamburg,Clothing,T-Shirt,3,70.31,2026-09-16
+95,Daniel Wagner,Female,58,daniel.wagner81@example.com,+491512689034,Cologne,Sports,Yoga Mat,1,31.18,2025-11-29
+96,George Fischer,Female,35,george.fischer57@example.com,+491748374377,Stuttgart,Grocery,Chocolate,4,21.92,2026-02-25
+97,Jack Richter,Female,28,jack.richter14@example.com,+491526447296,Munich,Clothing,Dress,3,,2026-02-18
+98,Henry Becker,Male,32,henry.becker50@example.com,+491578960561,Frankfurt,Grocery,Tea,5,33.52,2026-09-24
+99,Hannah Richter,Female,62,hannah.richter34@example.com,+491696634762,Dresden,Home,Chair,2,258.89,2025-02-08
+100,Aria Hoffmann,Female,28,aria.hoffmann56@example.com,+491577128127,Cologne,Home,Backpack,4,278.82,2026-09-19
+101,Evelyn Schmidt,Female,53,evelyn.schmidt39@example.com,+491732277608,Munich,Sports,Tennis Racket,3,319.32,2026-09-22
+102,Freddie Neumann,Female,66,freddie.neumann50@example.com,+491792262582,Munich,Electronics,Earbuds,5,432.41,2026-09-30
+103,Scarlett Schulz,Female,40,scarlett.schulz96@example.com,+491525643065,Berlin,Clothing,Jeans,2,137.48,2026-02-08
+104,Jack Becker,Female,50,jack.becker25@example.com,+491710786645,Berlin,Sports,Yoga Mat,1,29.64,2026-02-12
+105,Sophia Zimmermann,Female,58,sophia.zimmermann67@example.com,+491562862987,Cologne,Clothing,Sneakers,3,378.99,2025-04-10
+106,Oliver Wolf,Male,47,oliver.wolf81@example.com,12345,Berlin,Electronics,Smartphone,5,3998.09,2025-12-16
+107,Sophia Fischer,Female,33,sophia.fischer20@example.com,+491748027363,Cologne,Electronics,Keyboard,4,259.94,
+108,Emma Zimmermann,Female,22,emma.zimmermann57@example.com,+491777293734,Berlin,Home,Blender,3,260.43,2025-02-18
+109,Theo Becker,Female,58,theo.becker9@example.com,+491647298627,Stuttgart,Sports,Tennis Racket,2,184.27,2025-12-25
+110,Lucas Meyer,Male,56,lucas.meyer78@example.com,+491675104905,Hamburg,Home,Desk,6,1330.51,2025-03-19
+111,Theo Fischer,M,38,theo.fischer55@example.com,+491676846172,Munich,Sports,Tennis Racket,2,192.1,2025-09-17
+112,Hannah Koch,Female,51,hannah.koch59@example.com,+491665766211,Cologne,Grocery,Pasta,6,28.15,2026-08-28
+113,George Becker,Female,51,george.becker40@example.com,+491652527791,Hamburg,Electronics,Keyboard,2,94.49,08/09/2026
+114,Jacob Wolf,Female,64,jacob.wolf82@example.com,+491575918514,Stuttgart,Grocery,Olive Oil,6,64,2026-04-18
+115,  Jacob Braun ,Male,41,jacob.braun56@example.com,+491753143465,Frankfurt,Grocery,Cereal,4,22.64,2025-12-31
+116,Oscar Neumann,Female,68,oscar.neumann62@example.com,+491515379631, hamburg ,Home,Blender,1,82.26,2026-12-28
+117,Daniel Lehmann,Male,25,daniel.lehmann99@example.com,+491687628269,Cologne,Grocery,Olive Oil,3,38.47,2026-12-28
+118,Leo Meyer,Male,31,,+491551825639,Munich,Clothing,Jacket,6,676.05,2026-09-26
+119,Elijah Koch,Male,36,elijah.koch17@example.com,+491568032310,Dresden,Home,Chair,1,139.05,2025-03-10
+120,Elijah Fischer,Female,20,elijah.fischer18@example.com,+491746657159,Dresden,Sports,Water Bottle,1,19.85,2025-10-21
+121,Theo Neumann,Female,30,theo.neumann7@example.com,+491732615309,Hamburg,Clothing,Sneakers,6,766.67,2026-07-04
+122,Lucas Koch,Female,63,lucas.koch7@example.com,+491546781525,Cologne,sports,Dumbbells,4,214.82,2026-10-14
+123,Isabella Meyer,Female,67,isabella.meyer13@example.com,+491579138193,Cologne,Clothing,Sneakers,6,644.06,2026-09-29
+124,ISABELLA HOFFMANN,Female,28,isabella.hoffmann98@example.com,+491668434026,Berlin,Electronics,Smartphone,4,2668.65,2026-01-04
+125,Grace Fischer,Male,41,grace.fischer74@example.com,+491559775141,Hamburg,Sports,Football,2,54.29,2025-04-06
+126,Evelyn Lehmann,Male,52,evelyn.lehmann10@example.com,+491630881103,Cologne,Sports,Running Shoes,2,206.66,2025-07-18
+127,Hannah Klein,Male,42,hannah.klein33@example.com,+491762810353,Hamburg,Clothing,Jeans,2,162.18,2026-05-01
+128,Oliver Koch,Male,57,oliver.koch37@example.com,+491796874996,Berlin,Sports,Running Shoes,2,258.83,2026-05-01
+129,Noah Richter,Male,,noah.richter59@example.com,+491720774996,Dresden,Electronics,Smartphone,3,1781.23,2026-11-26
+130,Oliver Hartmann,Female,36,oliver.hartmann39@example.com,+491580301917,Stuttgart,Electronics,Laptop,3,2973.56,2025-04-03
+131,Mason Hoffmann,Male,19,mason.hoffmann41@example.com,+491618480801,Berlin,Grocery,Coffee,3,35.98,2026-06-18
+132,Theo Wolf,Male,20,theo.wolf46@example.com,+491774304224,Stuttgart,Home,Backpack,4,214.48,2026-10-29
+133,Ella Neumann,Male,52,ella.neumann33@example.com,+491791744399,Hamburg,Home,Bedsheet,1,41.13,2025-01-22
+134,Chloe Zimmermann,Male,125,chloe.zimmermann77@example.com,+491531215491,Cologne,Clothing,Dress,4,342.25,2027-01-01
+135,Sophia Klein,Male,33,sophia.klein55@example.com,+491631095586,Stuttgart,Clothing,Sneakers,2,214.53,2026-12-03
+136,Liam Weber,Male,65,liam.weber68@example.com,+491764811899,Hamburg,Clothing,T-Shirt,6,148.41,2025-07-23
+137,Jacob Richter,Male,37,jacob.richter97@example.com,+491741283068,Hamburg,Home,Blender,5,384.34,2025-04-02
+138,  Grace Braun ,Female,31,grace.braun78@example.com,+491772902917,Hamburg,Grocery,Tea,2,15.3,2025-12-05
+139,Hannah Fischer,Male,65,hannah.fischer35@example.com,+491610195915,Berlin,Home,Chair,2,280.89,2025-08-19
+140,Evelyn Koch,Female,47,evelyn.koch59@example.com,+491533040431,Hamburg,Grocery,Tea,1,7.37,2025-10-10
+141,Lily Wolf,Male,66, LILY.WOLF50@EXAMPLE.COM ,+491792026269,Frankfurt,Home,Backpack,3,188.68,2025-05-03
+142,Harper Weber,Male,51,harper.weber17@example.com,+491642684542,Hamburg ,Sports,Running Shoes,2,215.65,2026-11-21
+143,Liam Richter,Male,54,liam.richter36@example.com,+491768270556,Hamburg,Home,Bedsheet,6,280.3,2025-03-18
+144,Hannah Wagner,Female,35,hannah.wagner51@example.com,+491514241816,Munich,Home,Desk,5,1180.39,2026-07-27
+145,Liam Lehmann,Male,22,liam.lehmann8@example.com,+491518542015, stuttgart ,Electronics,Smartwatch,3,629.17,2025-01-20
+146,Emma Hartmann,Male,67,emma.hartmann3@example.com,+491568104861,Cologne,Electronics,Smartphone,5,3013.88,2025-07-25
+147,Ethan Schmidt,Female,46,ethan.schmidt5@example.com,+491617065374,Berlin,Grocery,Cereal,5,29.73,2026-12-12
+148,Nora Weber,M,63,nora.weber52@example.com,+491551669356,Berlin,Grocery,Olive Oil,2,20.73,2025-03-24
+149,Mia Meyer,Male,50,mia.meyer31@example.com,+491530901888,Berlin,Grocery,Coffee,6,63.54,2025-01-08
+150,Evelyn Becker,Female,30,evelyn.becker97@example.com,+491747892459,Berlin,Home,Blender,1,73.86,2025-12-26
+151,Mia Schneider,Male,20,mia.schneider11@example.com,+491584248788,Cologne,Home,Desk,5,1346.81,2025-06-03
+152,Jacob Zimmermann,Female,19,jacob.zimmermann44@example.com,+491777835169,Frankfurt,Clothing,Hoodie,6,370.85,2025-07-28
+153,Jacob Krause,Male,65,jacob.krause25@example.com,+491615572489,Cologne,Electronics,Smartphone,4,3002.09,2025-04-14
+154,Freddie Kruger,Male,41,freddie.kruger72@example.com,+491574395798,Munich,Sports,Tennis Racket,5,400.18,2025-10-27
+155,SOFIA MEYER,Female,48,sofia.meyer44@example.com,+491678592502,Hamburg,Sports,Running Shoes,1,115.34,2025-08-24
+156,Ella Weber,Female,49,ella.weber54@example.com,+491788210978,Munich,Grocery,Cereal,4,21.08,2026-07-16
+157,Ava Wagner,Female,25,ava.wagner59@example.com,+491596458160,Cologne,Grocery,Pasta,6,28.77,2026-02-10
+158,Isabella Krause,Male,54,isabella.krause4@example.com,+491603323611,Berlin, Sports ,Water Bottle,6,126.89,2026-12-23
+159,Evelyn Wagner,Male,19,evelyn.wagner96@example.com,,Munich,Home,Chair,5,573.71,2026-04-24
+160,Jacob Neumann,Male,42,jacob.neumann8@example.com,+491574470496,Frankfurt,Sports,Tennis Racket,6,582.5,2025-01-12
+161,  Evelyn Weber ,Female,25,evelyn.weber60@example.com,+491797745333,Berlin,Electronics,Smartphone,2,1537.64,2025-05-27
+162,Ella Becker,Female,55,ella.becker47@example.com,+491744658359,Stuttgart,Clothing,Dress,4,359.7,2025-05-24
+163,Lily Braun,Male,59,lily.braun66@example.com,+491581690990,Berlin,Sports,Dumbbells,6,278.41,2025-04-07
+164,Mason Krause,Female,43,mason.krause8@example.com,+491754829233,Berlin,Electronics,Smartphone,2,1237.66,2026-02-19
+165,Lucy Braun,Female,31,lucy.braun34@example.com,+491628894495,Munich,Home,Lamp,4,206.72,2025-11-25
+166,Noah Fischer,Male,65,noah.fischer47@example.com,+491573983562,Berlin,Electronics,EARBUDS,2,204.89,2026-05-12
+167,Oliver Hartmann,Male,59,oliver.hartmann16@example.com,+491600757778,Dresden,Grocery,Pasta,2,8.42,2025-03-16
+168,Theo Wolf,Female,20,theo.wolf77@example.com,+491728191890,Frankfurt,Electronics,Laptop,3,2431.3,2025-04-21
+169,Oscar Fischer,Male,30,oscar.fischer81@example.com,+491523441739,Munich,Clothing,Sneakers,1,94.02,2025-12-29
+170,Lucas Meyer,Female,63,lucas.meyer16@example.com,+491555173557,Hamburg,Sports,Football,5,153.8,2025-04-30
+171,Freddie Hoffmann,Female,25,freddie.hoffmann73@example.com,+491519449620,Dresden,Sports,Football,2,69.39,2026-02-17
+172,Oliver Schulz,Female,unknown,oliver.schulz94@example.com,+491571114700,Stuttgart,Clothing,Jeans,2,162.38,2026-12-20
+173,Oscar Hoffmann,Female,68,oscar.hoffmann69@example.com,+491759129102,Cologne,Home,Desk,3,810.69,2026-01-04
+174,Evelyn Becker,Female,42,evelyn.becker67@example.com,+491684496011, hamburg ,Clothing,Sneakers,2,240.35,2026-03-17
+175,Harper Fischer,Male,57,harper.fischer81@example.com,+491773188473,Hamburg,Grocery,Tea,6,41.07,2026-02-15
+176,Noah Klein,Female,23,noah.klein29@example.com,+491632169288,Cologne,Electronics,Smartwatch,3,558.92,2025-10-19
+177,Charlie Braun,Female,47,customer@,+491731772031,Berlin,Grocery,Olive Oil,3,35.59,2025-08-22
+178,Freddie Zimmermann,Male,42,freddie.zimmermann70@example.com,+491769926718,Cologne,Electronics,Laptop,10 units,4956.67,2026-09-07
+179,Daniel Klein,Female,43,daniel.klein77@example.com,+491673828234,Dresden,Electronics,Smartphone,4,2436.48,2025-11-17
+180,Theo Lehmann,Male,26,theo.lehmann54@example.com,+491718834891,Stuttgart,Electronics,Earbuds,3,255.11,2026-08-30
+181,Oscar Neumann,Male,44,oscar.neumann94@example.com,+491672160267,Frankfurt,Electronics,Earbuds,5,449.27,2025-02-15
+182,Amelia Schneider,Female,28,amelia.schneider24@example.com,+491528194936,Frankfurt,Sports,Dumbbells,4,226.48,2025-09-12
+183,Aria Hartmann,Male,25,aria.hartmann1@example.com,+491523933951,Dresden,sports,Tennis Racket,5,529.3,2026-02-22
+184,  Emma Meyer ,Male,66,emma.meyer66@example.com,+491578595774,Munich,Electronics,Earbuds,1,104.74,2026-10-06
+185,Chloe Koch,female,57,chloe.koch67@example.com,+491650199640,Hamburg,Clothing,T-Shirt,5,124.32,2026-12-20
+186,ISABELLA KLEIN,Female,31,isabella.klein9@example.com,+491760720785,Dresden,Home,Lamp,4,211.29,2026-01-30
+187,Harper Hoffmann,Male,58,harper.hoffmann27@example.com,+491570674998,Cologne,Home,Blender,4,328.15,2025-03-28
+188,Daniel Fischer,Female,31, DANIEL.FISCHER98@EXAMPLE.COM ,+491665637301,Hamburg,Home,Backpack,5,387.16,2026-02-08
+189,George Wagner,Female,29,george.wagner9@example.com,+491795499077,Frankfurt,Sports,Yoga Mat,2,62.06,2025-03-16
+190,James Kruger,Female,50,james.kruger54@example.com,+491594360145,Munich,Home,Desk,2,503.23,2025-05-02
+191,Mia Schneider,Female,65,mia.schneider63@example.com,+491558748867,Hamburg,Electronics,Smartwatch,2,420.02,2026-09-27
+192,Scarlett Wagner,Male,21,scarlett.wagner63@example.com,+491667897641,Munich,Grocery,Olive Oil,3,32.95,2026-05-28
+193,Mason Hartmann,Male,49,mason.hartmann90@example.com,+491727002079,Munich,Grocery,Chocolate,2,9.72,2025-02-05
+194,Chloe Klein,Female,18,chloe.klein10@example.com,+491551685840,Hamburg,Grocery,Cereal,3,"1,299.99",2026-08-10
+195,Scarlett Lehmann,Female,39,scarlett.lehmann95@example.com,+491534691405,Berlin,Home,Backpack,3,211.56,2025-11-28
+196,Sophia Richter,Male,18,sophia.richter15@example.com,+491621158749,Dresden,Clothing,Jacket,3,346.79,2025-09-22
+197,Emma Lehmann,Male,47,emma.lehmann66@example.com,+491548473997,Frankfurt,Grocery,Tea,6,49.22,2026-03-08
+198,Oliver Meyer,Male,21,oliver.meyer15@example.com,+491691123065,Stuttgart,Grocery,Chocolate,3,14.27,2026-01-11
+199,Elijah Neumann,Female,40,elijah.neumann96@example.com,+491642785737,Frankfurt,Clothing,Jacket,1,127.02,2025-12-26
+199,Elijah Neumann,Female,40,elijah.neumann96@example.com,+491642785737,Frankfurt,Clothing,Jacket,1,127.02,2025-12-26
+201,Daniel Schneider,Female,-3,daniel.schneider10@example.com,+491670433863,Munich,Clothing,T-Shirt,6,155.23,2026-10-21
+202,Charlie Zimmermann,Female,24,charlie.zimmermann54@example.com,+491791612594,Hamburg,Grocery,Pasta,3,11.82,2025-09-29
+203,Freddie Meyer,Female,55,freddie.meyer35@example.com,+491779213510, berlin ,Home,Lamp,3,136.18,2025-12-29
+204,Chloe Wagner,Female,29,chloe.wagner69@example.com,+491656174139,Hamburg,Home,Desk,5,1396.29,2026-03-08
+205,Charlotte Klein,Male,59,charlotte.klein45@example.com,+491724180305,Berlin,Clothing,Sneakers,4,486.92,2025-01-24
+206,Theo Schneider,Female,28,theo.schneider54@example.com,+491717113760,Stuttgart,Sports,Tennis Racket,6,483.5,2025-11-11
+207,  Charlotte Schulz ,Male,47,charlotte.schulz79@example.com,+491553787226,Hamburg,Clothing,Dress,1,88.71,2026-04-17
+208,George Zimmermann,Female,30,george.zimmermann87@example.com,+491788747743,Stuttgart,Home,Backpack,5,269.4,2025-01-12
+209,Evelyn Klein,Male,51,evelyn.klein56@example.com,+491546259308,Dresden,Clothing,Dress,6,481.21,2026-03-13
+210,Aria Wolf,Female,32,aria.wolf14@example.com,+491655220695,Munich,Sports,Water Bottle,3,63.75,2026-02-17
+211,Sophia Krause,Male,64,sophia.krause58@example.com,+491697855219,Cologne,Home,Bedsheet,1,45.53,2025-05-29
+212,Harper Braun,Female,36,harper.braun10@example.com,abc-phone,Dresden,Clothing,Jacket,2,238,2025-10-02
+213,James Wolf,Male,28,james.wolf87@example.com,+491707143536,cologne,Home,Bedsheet,6,228.76,2025-03-07
+214,Oscar Krause,Female,50,oscar.krause33@example.com,+491726147065,Dresden,Electronics,Earbuds,5,437.59,2025/13/40
+215,Henry Hartmann,Female,unknown,henry.hartmann55@example.com,+491516164608,Stuttgart,Grocery,Chocolate,3,15.85,2025-07-15
+216,Theo Hartmann,Male,52,theo.hartmann70@example.com,+491775177875,Frankfurt,Grocery,Pasta,1,3.83,2025-07-11
+217,LEO RICHTER,Female,22,leo.richter63@example.com,+491753066315,Hamburg,Sports,Football,4,122.19,2025-02-13
+218,Mason Wagner,Male,22,mason.wagner73@example.com,+491556262849,Cologne,Clothing,Jeans,5,283.54,2025-12-01
+219,Lily Wolf,Male,38,lily.wolf68@example.com,+491532785013,Cologne,Home,Blender,5,470.32,2025-12-12
+220,Evelyn Neumann,Female,55,evelyn.neumann12@example.com,+491525751939,Berlin,Home,Bedsheet,5,169.97,2026-09-18
+221,Charlotte Krause,Male,26,charlotte.krause58@example.com,+491557757002,Cologne,Grocery,Chocolate,1,5.97,2025-10-09
+222,Charlotte Wolf, FEMALE ,25,charlotte.wolf42@example.com,+491621792711,Cologne,Sports,Dumbbells,2,105.78,2026-05-08
+223,Evelyn Hartmann,Male,37,evelyn.hartmann60@example.com,+491614905955,Munich,Clothing,Jacket,2,282.63,2025-10-04
+224,Scarlett Wagner,Female,48,scarlett.wagner15@example.com,+491631530855,Munich,Home,Lamp,3,155.22,2025-01-14
+225,Daniel Schulz,Male,54,daniel.schulz54@example.com,+491659657989,Munich,Sports,Football,3,103.28,2025-07-30
+226,Sophia Richter,Male,30,sophia.richter44@example.com,+491560026857,Dresden,Sports,Football,5,121.87,14/12/2026
+227,Aria Wolf,Female,36,aria.wolf97@example.com,+491666864097,Berlin,Grocery,Cereal,4,22.99,2026-10-29
+228,Jack Fischer,Male,41,jack.fischer89@example.com,+491590356975,Berlin,Grocery,Tea,2,13.41,2025-03-13
+229,Ava Braun,Male,43,ava.braun80@example.com,+491692187763,Frankfurt,Clothing,Sneakers,6,683.34,2025-03-02
+230,  Mia Hartmann ,Male,21,mia.hartmann92@example.com,+491703739070,Munich,Sports,Dumbbells,3,180.91,2025-11-09
+231,Chloe Meyer,Female,40,chloe.meyer12@example.com,+491784324906,Munich,Electronics,Laptop,6,4393.16,2025-03-11
+232,Evelyn Braun,Female,41,evelyn.braun43@example.com,+491751317932, dresden ,Clothing,Dress,2,157.03,2025-10-01
+233,Nora Lehmann,Male,21,nora.lehmann97@example.com,+491601284856,Munich,Home,Backpack,3,175.96,2025-02-04
+234,Nora Schneider,Male,32,nora.schneider31@example.com,+491779835040,Dresden,Grocery,Pasta,1,4.47,2025-12-15
+235,Lucy Meyer,Female,25, LUCY.MEYER79@EXAMPLE.COM ,+491578275740,Munich,Home,Lamp,3,120.6,2025-12-04
+236,Evelyn Lehmann,Male,68,missing.com,+491662141245,Cologne,Grocery,Chocolate,6,28.2,2026-09-08
+237,Scarlett Koch,Male,65,scarlett.koch78@example.com,+491599034316,Frankfurt, Sports ,Yoga Mat,4,114.54,2025-07-18
+238,Theo Fischer,Male,62,theo.fischer72@example.com,+491747927941,Munich,Electronics,Smartwatch,2,389.67,2025-05-27
+239,Theo Krause,Male,38,theo.krause64@example.com,+491790129681,Dresden,Home,Desk,3,816.93,2025-04-27
+240,Hannah Hoffmann,Female,43,hannah.hoffmann15@example.com,+491588047239,Hamburg,Clothing,Hoodie,5,331.48,2026-12-29
+241,Mia Wolf,Female,38,mia.wolf89@example.com,+491636998090,Cologne,Electronics,Smartwatch,6,1180.03,2025-01-28
+242,Freddie Meyer,Male,52,freddie.meyer50@example.com,+491594089799,Cologne,Home,Chair,2,249.85,2025-10-12
+243,Henry Becker,Female,36,henry.becker29@example.com,+491736133835,Stuttgart,Sports,Yoga Mat,3,92.64,2025-02-16
+244,Daniel Weber,Female,28,daniel.weber52@example.com,+491557838040,Hamburg,clothing,Jeans,3,244.31,2025-04-15
+245,Henry Wagner,Male,43,henry.wagner83@example.com,+491691712409,Cologne,Home,Blender,6,529.66,2026-11-08
+246,Isabella Kruger,Male,41,isabella.kruger72@example.com,+491557147745,Frankfurt,Sports,Water Bottle,3,54.85,2026-08-14
+247,Mason Krause,Male,28,mason.krause76@example.com,+491525698027,Cologne,Home,Desk,5,1043.64,2025-03-30
+248,GEORGE WOLF,Female,19,george.wolf50@example.com,+491535271660,Berlin,Home,Bedsheet,4,179.79,2026-01-30
+249,Evelyn Klein,Female,56,evelyn.klein58@example.com,+491784464825,Munich,Home,BLENDER,5,407.77,2025-05-02
+250,Lily Zimmermann,Female,63,lily.zimmermann8@example.com,+491611561825,Hamburg,Clothing,Jeans,4,255.46,2026-12-24
+251,Charlie Kruger,Female,20,charlie.kruger24@example.com,+491743992601,Stuttgart,Sports,Football,4,108.31,2026-04-16
+252,Harper Weber,Female,36,harper.weber64@example.com,+491765619712,Stuttgart,Clothing,Jeans,6,362.3,2025-10-17
+253,  Ethan Kruger ,Female,61,ethan.kruger25@example.com,+491517404328,Dresden,Grocery,Chocolate,4,16.76,2025-04-05
+254,Sophia Krause,Male,31,sophia.krause13@example.com,+491765762664,Frankfurt,Clothing,Jacket,3,329.96,2026-11-15
+255,Evelyn Schneider,Male,41,evelyn.schneider28@example.com,+491606891203,Berlin,Home,Backpack,5,322.57,2026-04-24
+256,Freddie Richter,Female,62,freddie.richter85@example.com,+491617669835,Dresden,Electronics,Earbuds,2,172.29,2026-05-07
+257,Arthur Fischer,Male,66,arthur.fischer64@example.com,+491595360313,Hamburg,Grocery,Tea,3,22.9,2026-11-27
+258,Chloe Wolf,Male,,chloe.wolf40@example.com,+491777591606,Munich,Home,Desk,1,293.33,2025-05-23
+259,Mia Braun, MALE ,29,mia.braun57@example.com,+491758153513,Munich,Home,Blender,6,460.13,2026-03-14
+260,Jack Fischer,Female,55,jack.fischer85@example.com,+491769534257,Dresden,Clothing,Jacket,4,432.64,2026-08-05
+261,Elijah Schneider,Female,19,elijah.schneider80@example.com,+491623216766, dresden ,Home,Bedsheet,6,275.66,2026-04-25
+262,Daniel Koch,Female,28,daniel.koch18@example.com,+491673161786,Hamburg,Sports,Yoga Mat,1,31.55,2025-04-27
+263,Hannah Richter,Male,49,hannah.richter71@example.com,+491596191851,Cologne,Sports,Running Shoes,3,424.08,2025-11-07
+264,Charlotte Koch,Female,34,charlotte.koch39@example.com,+491517785520,Munich,Grocery,Pasta,1,4.11,2025-02-17
+265,Jack Kruger,Male,52,jack.kruger55@example.com,abc-phone,Munich,Grocery,Coffee,6,74.72,2025-02-17
+266,Jack Schmidt,Female,44,jack.schmidt12@example.com,+491636145993,Cologne,Grocery,Coffee,3,42.6,2026-09-05
+267,Charlie Hartmann,Male,43,charlie.hartmann22@example.com,+491582245875,Cologne,Clothing,Sneakers,10 units,475.78,2026-11-09
+268,Emma Zimmermann,Female,125,emma.zimmermann44@example.com,+491651522721,Frankfurt,Clothing,Hoodie,6,388.61,2025-09-26
+269,James Wagner,Male,59,james.wagner44@example.com,+491523616445,Stuttgart,Grocery,Pasta,3,10.01,2026-08-14
+270,George Kruger,Male,35,george.kruger26@example.com,+491663956011,Munich,Sports,Yoga Mat,4,120.74,2025-03-27
+271,Grace Lehmann,Male,56,grace.lehmann80@example.com,+491691900518,Cologne,Sports,Yoga Mat,6,251.41,2025-07-01
+272,Oliver Meyer,Female,50,oliver.meyer15@example.com,+491540043938,Munich,Grocery,Pasta,3,11.9,2026-04-07
+273,Scarlett Hoffmann,Male,20,scarlett.hoffmann46@example.com,+491533560653,Munich,Sports,Dumbbells,6,393.57,2026-04-10
+274,Scarlett Zimmermann,Female,50,scarlett.zimmermann69@example.com,+491770014263,Frankfurt,Electronics,Laptop,6,4474.5,2026-06-01
+275,Elijah Schmidt,Male,30,elijah.schmidt18@example.com,+491526968337,Frankfurt,Clothing,Jacket,4,452.14,2025-10-02
+276,  Sofia Hartmann ,Male,26,sofia.hartmann31@example.com,+491776724459,Dresden,Home,Chair,5,699.11,2026-10-25
+277,Mia Schmidt,Female,40,mia.schmidt32@example.com,+491618186266,Berlin,Home,Desk,5,1271.54,2025-09-27
+278,Evelyn Hoffmann,Male,46,evelyn.hoffmann51@example.com,+491518529670,Berlin,Electronics,Smartphone,1,610.38,2026-10-04
+279,OLIVIA BRAUN,Female,45,olivia.braun15@example.com,+491589141664,Dresden,Electronics,Smartwatch,3,714.37,2026-08-02
+280,Ethan Wagner,Male,39,ethan.wagner3@example.com,+491774838113,Stuttgart,Electronics,Laptop,3,2599.05,2026-04-02
+281,Theo Fischer,Male,45,theo.fischer46@example.com,+491582159441,Hamburg,Sports,Yoga Mat,2,74.63,2026-07-20
+282,Elijah Weber,Female,63, ELIJAH.WEBER91@EXAMPLE.COM ,+491715548163,Stuttgart,Clothing,Jacket,2,206.43,2025-12-12
+283,Freddie Lehmann,Male,59,freddie.lehmann18@example.com,+491764993004,Berlin,Home,Backpack,2,114.59,2026-08-16
+284,James Lehmann,Female,24,james.lehmann5@example.com,+491535300788,Hamburg ,Sports,Running Shoes,6,745.32,2025-10-19
+285,Lucas Weber,Female,33,lucas.weber16@example.com,+491633125259,Hamburg,Home,Backpack,4,223.91,2025-01-15
+286,Hannah Schulz,Female,46,hannah.schulz95@example.com,+491723449041,Berlin,Sports,Water Bottle,3,47.38,2026-09-05
+287,Ella Neumann,Male,25,ella.neumann84@example.com,+491564660249,Dresden,Electronics,Laptop,4,3609.99,2026-12-11
+288,James Lehmann,Female,34,james.lehmann5@example.com,+491567406793,Stuttgart,Grocery,Olive Oil,4,38.43,2026-03-10
+289,Sophia Fischer,Male,61,sophia.fischer13@example.com,+491571986592,Cologne,Sports,Running Shoes,3,335.63,2026-07-20
+290,Leo Fischer,Female,49,leo.fischer7@example.com,+491789886960, dresden ,Clothing,Sneakers,1,114.15,2025-08-13
+291,Lucy Richter,Male,58,lucy.richter76@example.com,+491675581280,Frankfurt,Electronics,Smartwatch,1,,2026-05-16
+292,Oliver Klein,Female,52,oliver.klein34@example.com,+491578433017,Berlin,Grocery,Coffee,3,39.19,2026-08-28
+293,Oliver Krause,Male,40,oliver.krause87@example.com,+491634962621,Hamburg,Electronics,Laptop,5,3782.9,2026-08-23
+294,Oscar Wolf,Male,21,oscar.wolf6@example.com,+491642708421,Stuttgart,Grocery,Olive Oil,5,50.03,2025-01-03
+295,Mason Richter,Male,66,,+491715040119,Hamburg,Electronics,Monitor,2,549.96,2026-05-01
+296,Emma Wolf,M,32,emma.wolf50@example.com,+491686895923,Cologne,Clothing,Dress,6,440.32,2025-04-25
+297,Emma Lehmann,Female,38,emma.lehmann29@example.com,+491533242496,Cologne,Electronics,Smartwatch,1,216.29,2026-10-23
+298,Sophia Neumann,Male,49,sophia.neumann78@example.com,+491562492287,Berlin,Electronics,Earbuds,2,206.36,2025-05-07
+299,  Lily Becker ,Male,37,lily.becker95@example.com,+491681135377,Dresden,Sports,Tennis Racket,3,292.28,2025-02-27
+300,Harper Neumann,Male,54,harper.neumann92@example.com,+491641633621,Stuttgart,Electronics,Smartphone,1,614,2025-02-01
+301,Liam Wagner,Female,unknown,liam.wagner94@example.com,+491653944840,Berlin,Sports,Yoga Mat,5,169.65,2025-12-04
+302,Charlotte Braun,Male,42,charlotte.braun51@example.com,+491573046187,Munich,Clothing,Sneakers,5,593.86,2026-01-24
+303,Arthur Kruger,Female,54,arthur.kruger75@example.com,+491703012346,Stuttgart,Electronics,Earbuds,5,404.87,2025-10-29
+304,Amelia Wagner,Male,64,amelia.wagner6@example.com,+491777806948,Dresden,Home,Chair,6,876.96,2026-05-12
+305,Henry Neumann,Male,56,henry.neumann8@example.com,+491527293115,Dresden,sports,Football,1,34.02,2025-10-24
+306,Scarlett Klein,Male,39,scarlett.klein20@example.com,+491750098124,Hamburg,Electronics,Earbuds,4,348.19,2026-08-30
+307,Harper Klein,Male,41,harper.klein16@example.com,+491669900248,Stuttgart,Clothing,Hoodie,1,55.22,2026-02-18
+308,Harper Fischer,Male,30,harper.fischer94@example.com,+491656251943,Stuttgart,Electronics,Earbuds,3,224.3,2025-06-06
+309,Hannah Meyer,Female,45,hannah.meyer81@example.com,+491542823676,Munich,Home,Chair,3,438.42,2025-10-25
+310,CHLOE WAGNER,Female,50,chloe.wagner44@example.com,+491756017705,Munich,Electronics,Smartphone,1,663.67,2026-03-15
+311,Sophia Kruger,Female,42,sophia.kruger44@example.com,+491513532727,Hamburg,Clothing,T-Shirt,3,101.63,2026-03-27
+312,Olivia Schulz,Male,59,olivia.schulz82@example.com,+491738852480,Frankfurt,Sports,Water Bottle,4,67.88,2026-06-16
+313,Grace Richter,Male,30,grace.richter61@example.com,+491737833848,Frankfurt,Grocery,Cereal,6,41.38,2025-10-20
+314,James Hartmann,Female,68,james.hartmann47@example.com,+491719810185,Berlin,Clothing,Sneakers,5,526.64,2026-12-21
+315,Noah Becker,Male,49,noah.becker20@example.com,+491716157080,Dresden,Electronics,Smartphone,1,694.25,2025-11-17
+316,Sofia Fischer,Male,34,sofia.fischer22@example.com,+491648304342,Frankfurt, Electronics ,Keyboard,5,267.62,2026-06-26
+317,Scarlett Wolf,Male,67,scarlett.wolf96@example.com,+491583525120,Dresden,Sports,Running Shoes,2,247.98,2026-08-21
+318,Freddie Koch,Male,63,freddie.koch24@example.com,,Cologne,Sports,Football,1,23.81,2025-12-15
+319,Oliver Zimmermann,Male,63,oliver.zimmermann18@example.com,+491754208254, cologne ,Grocery,Pasta,1,4.65,2025-06-15
+320,Ava Klein,Female,64,ava.klein54@example.com,+491562439353,Munich,Grocery,Pasta,6,26.91,2026-12-02
+321,Aria Schneider,Female,63,aria.schneider74@example.com,+491715114187,Hamburg,Grocery,Tea,4,24.1,2025/13/40
+322,  Henry Klein ,Female,66,henry.klein65@example.com,+491734189064,Hamburg,Clothing,Jeans,2,145.42,2026-07-25
+323,Oscar Weber,Female,61,oscar.weber24@example.com,+491687846480,Frankfurt,Sports,Dumbbells,6,314.36,2025-11-04
+324,Lucy Wolf,Male,47,lucy.wolf99@example.com,+491551062147,Munich,Grocery,Pasta,6,28.68,2026-07-31
+325,Amelia Braun,Female,32,amelia.braun52@example.com,+491754580622,Stuttgart,Sports,Yoga Mat,1,33.94,2025-05-01
+326,Lily Schulz,Female,54,lily.schulz56@example.com,+491677026337,Frankfurt,Grocery,Pasta,4,18.19,2026-06-25
+327,Sophia Krause,Male,26,sophia.krause4@example.com,+491739893482,Stuttgart,Grocery,Coffee,5,59.48,2025-04-18
+328,Emma Meyer,Female,62,emma.meyer19@example.com,+491655593736,Frankfurt,Electronics,Laptop,4,3345.59,2025-05-06
+329,Leo Wagner,Male,19, LEO.WAGNER84@EXAMPLE.COM ,+491606348233,Hamburg,Electronics,Laptop,5,3618.24,2025-02-19
+330,Henry Hartmann,Female,36,henry.hartmann37@example.com,+491795211857,Cologne,Electronics,Earbuds,1,105.93,2026-01-31
+331,Harper Braun,Female,67,harper.braun66@example.com,+491631424995,Berlin,Sports,Running Shoes,3,320.9,2026-12-10
+332,Elijah Klein,Female,32,elijah.klein1@example.com,+491591964824,Hamburg,Grocery,CHOCOLATE,1,5.26,2025-03-28
+333,Elijah Hartmann,male,18,elijah.hartmann48@example.com,+491681140952,Hamburg,Grocery,Cereal,5,25.86,2025-01-09
+334,Lucas Schmidt,Female,44,lucas.schmidt69@example.com,+491771878690,Frankfurt,Electronics,Laptop,6,4577.76,2025-11-19
+335,Elijah Wolf,Female,15,elijah.wolf80@example.com,+491758726158,Stuttgart,Sports,Water Bottle,3,54.05,2025-09-23
+336,Mia Braun,Female,25,mia.braun72@example.com,+491733410993,Frankfurt,Grocery,Coffee,6,69.86,2026-06-15
+337,Scarlett Koch,Female,55,scarlett.koch95@example.com,+491524189532,Munich,Electronics,Earbuds,3,268.53,2026-09-24
+338,Ava Koch,Female,55,ava.koch44@example.com,+491559447407,Berlin,Electronics,Smartwatch,3,544.6,2025-11-30
+339,Jacob Lehmann,Female,39,jacob.lehmann70@example.com,+491674529953,Stuttgart,Home,Desk,5,1168,14/09/2025
+340,Nora Weber,Male,27,nora.weber60@example.com,+491790346721,Hamburg,Clothing,Hoodie,1,66.93,2026-09-22
+341,GRACE SCHULZ,Female,47,grace.schulz52@example.com,+491798669711,Cologne,Electronics,Monitor,1,325.12,2025-04-29
+342,Leo Krause,Female,65,leo.krause11@example.com,+491607474239,Hamburg,Electronics,Monitor,4,1086.2,2026-06-19
+343,Lucy Schmidt,Male,29,lucy.schmidt64@example.com,+491539496296,Cologne,Sports,Tennis Racket,2,172.2,2025-04-27
+344,Aria Schmidt,Male,,aria.schmidt23@example.com,+491777890854,Berlin,Sports,Football,4,100.41,2025-09-25
+345,  Lucas Koch ,Female,58,lucas.koch81@example.com,+491794781373,Cologne,Home,Desk,2,528.84,2026-02-01
+346,Leo Wagner,Female,20,leo.wagner47@example.com,+491772795651,Dresden,Grocery,Chocolate,3,12.12,2025-03-31
+347,Aria Wolf,Male,49,aria.wolf30@example.com,+491603635544,Frankfurt,Clothing,Jeans,5,293.06,2025-07-28
+348,Oliver Hartmann,Male,66,oliver.hartmann78@example.com,+491535902664, dresden ,Grocery,Olive Oil,3,37.47,2026-05-12
+349,Elijah Schneider,Female,60,elijah.schneider54@example.com,+491616475801,Berlin,Grocery,Cereal,6,38.92,2025-12-20
+350,Liam Koch,Male,34,liam.koch87@example.com,+491603921971,Munich,Electronics,Monitor,1,344.25,2025-11-06
+351,Oliver Krause,Female,61,oliver.krause91@example.com,+491631536998,Hamburg,Sports,Football,5,171.49,2025-10-29
+352,Theo Hoffmann,Male,28,theo.hoffmann10@example.com,+491588779552,Cologne,Home,Bedsheet,2,75.68,2026-05-10
+353,Olivia Fischer,Male,49,olivia.fischer61@example.com,+491658146383,Hamburg,Home,Lamp,1,39.05,2025-07-08
+354,Aria Becker,Female,64,wrong-email,+491541294548,Frankfurt,Electronics,Earbuds,2,202.03,2025-06-29
+355,Freddie Klein,Male,67,freddie.klein44@example.com,+491683194388,BERLIN,Sports,Water Bottle,6,104.92,2026-07-03
+356,Isabella Becker,Male,30,isabella.becker24@example.com,+491655150253,Hamburg,Home,Lamp,-2,41.66,2025-08-14
+357,Evelyn Wagner,Female,33,evelyn.wagner13@example.com,+491602456125,Berlin,Electronics,Smartwatch,3,631.82,2025-04-22
+358,Isabella Schneider,Female,31,isabella.schneider21@example.com,+491559335244,Dresden,Grocery,Chocolate,3,16.7,2025-12-16
+359,Mason Hoffmann,Male,31,mason.hoffmann81@example.com,+491596605003,Frankfurt,Clothing,T-Shirt,4,106.73,2026-05-29
+360,Scarlett Schmidt,Male,29,scarlett.schmidt23@example.com,+491779612091,Munich,Clothing,Jeans,5,315.51,2026-07-21
+361,Olivia Zimmermann,Male,19,olivia.zimmermann33@example.com,+491743665431,Dresden,Grocery,Pasta,2,8.26,2025-07-15
+362,Ella Schneider,Male,66,ella.schneider70@example.com,+491693110325,Hamburg,Grocery,Olive Oil,5,44.98,2026-07-13
+363,Evelyn Neumann,Female,33,evelyn.neumann28@example.com,+491799026586,Stuttgart,Clothing,Hoodie,5,328.46,2026-06-05
+364,Evelyn Weber,Female,37,evelyn.weber40@example.com,+491547768321,Stuttgart,Clothing,Jeans,1,67.47,2026-01-18
+365,Amelia Braun,Female,43,amelia.braun7@example.com,+491668839521,Frankfurt,Sports,Tennis Racket,6,550.09,2025-04-03
+366,Jack Lehmann,Female,20,jack.lehmann35@example.com,+491552457805,Frankfurt,grocery,Olive Oil,1,12.86,2026-01-14
+367,Harper Wagner,Female,50,harper.wagner11@example.com,+491776183659,Munich,Grocery,Pasta,1,4.46,2025-04-08
+368,  George Wolf ,Male,25,george.wolf97@example.com,+491691308654,Berlin,Home,Desk,2,415.49,2025-08-13
+369,Charlotte Weber,Male,24,charlotte.weber34@example.com,+491699000959,Hamburg,Sports,Running Shoes,3,389.3,2026-09-08
+370,Sofia Weber,F,45,sofia.weber38@example.com,+491749198682,Munich,Clothing,Jacket,5,570.47,2025-09-17
+371,Lucas Schneider,Female,34,lucas.schneider33@example.com,49 151 000,Hamburg,Clothing,T-Shirt,1,27.05,2025-01-09
+372,ISABELLA MEYER,Male,31,isabella.meyer73@example.com,+491567848262,Hamburg,Electronics,Smartphone,2,1205.32,2025-12-20
+373,Olivia Fischer,Female,51,olivia.fischer31@example.com,+491591825581,Cologne,Clothing,Jeans,6,487.59,2026-02-19
+374,Hannah Zimmermann,Female,65,hannah.zimmermann40@example.com,+491541136408,Cologne,Home,Backpack,6,323.74,2025-11-13
+375,Lucas Meyer,Female,46,lucas.meyer85@example.com,+491650875076,Berlin,Home,Lamp,3,134.81,2026-06-04
+376,Arthur Klein,Female,43, ARTHUR.KLEIN87@EXAMPLE.COM ,+491744404304,Stuttgart,Home,Blender,4,349.9,2025-10-13
+377,Leo Krause,Male,19,leo.krause22@example.com,+491619327295, frankfurt ,Clothing,Sneakers,6,711.38,2026-10-26
+378,Harry Kruger,Male,41,harry.kruger39@example.com,+491663052963,Cologne,Grocery,Chocolate,2,8.81,2025-06-28
+379,Lucy Richter,Male,64,lucy.richter4@example.com,+491641659876,Berlin,Grocery,Cereal,3,20.55,2026-05-23
+380,Amelia Neumann,Female,59,amelia.neumann85@example.com,+491595950679,Berlin,Home,Desk,1,205.53,2025-08-10
+381,Oscar Becker,Female,18,oscar.becker26@example.com,+491530462132,Stuttgart,Grocery,Olive Oil,1,12.08,2026-12-20
+382,Nora Kruger,Female,56,nora.kruger40@example.com,+491554825847,Hamburg,Grocery,Pasta,6,25.38,2026-02-28
+383,Mason Wolf,Female,55,mason.wolf24@example.com,+491744256994,Hamburg,Electronics,Keyboard,5,344.78,2025-06-24
+384,Elijah Wolf,Female,48,elijah.wolf61@example.com,+491562848782,Dresden,Clothing,Dress,4,380.87,2025-11-04
+385,Grace Wagner,Male,25,grace.wagner5@example.com,+491595481644,Munich,Sports,Tennis Racket,3,338.47,2026-07-05
+386,Harry Krause,Female,23,harry.krause4@example.com,+491788393118,Frankfurt,Clothing,Hoodie,2,101.46,2025-11-24
+387,Charlie Klein,Male,,charlie.klein99@example.com,+491678351168,Hamburg,Sports,Yoga Mat,3,101.32,2026-01-18
+388,Ella Krause,Male,29,ella.krause33@example.com,+491635842291,Dresden,Home,Chair,1,"1,299.99",2025-11-10
+389,Oscar Lehmann,Female,28,oscar.lehmann36@example.com,+491545381418,Hamburg,Sports,Tennis Racket,6,474.44,2026-07-27
+390,Oliver Koch,Male,62,oliver.koch51@example.com,+491630267274,Stuttgart,Home,Backpack,4,220.13,2026-04-21
+391,  James Koch ,Female,27,james.koch48@example.com,+491718018357,Dresden,Grocery,Cereal,2,10.52,2025-09-22
+392,Arthur Neumann,Female,29,arthur.neumann1@example.com,+491758354441,Munich,Clothing,T-Shirt,3,80.74,2026-09-19
+393,James Kruger,Male,26,james.kruger79@example.com,+491630358115,Dresden,Clothing,Sneakers,5,479.36,2025-12-07
+394,Sophia Wolf,Male,34,sophia.wolf69@example.com,+491582474310,Frankfurt,Home,Lamp,6,256.99,2025-06-18
+395,Hannah Schneider,Female,29,hannah.schneider75@example.com,+491797490152,Dresden, Home ,Chair,2,264.04,2026-03-20
+396,Chloe Becker,Male,28,chloe.becker19@example.com,+491600583481,Stuttgart,Electronics,Laptop,6,4647.58,2026-09-24
+397,Jack Lehmann,Male,38,jack.lehmann39@example.com,+491767663308,Frankfurt,Grocery,Coffee,6,66.04,2025-04-03
+398,Liam Hoffmann,Female,47,liam.hoffmann65@example.com,+491705117120,Frankfurt,Home,Chair,5,694.5,2026-04-21
+399,Oliver Meyer,Male,60,oliver.meyer15@example.com,+491752198568,Berlin,Grocery,Cereal,3,19.26,2026-02-23
+399,Oliver Meyer,Male,60,oliver.meyer15@example.com,+491752198568,Berlin,Grocery,Cereal,3,19.26,2026-02-23
+401,James Klein,Male,44,james.klein91@example.com,+491799418024,Cologne,Clothing,Dress,1,79.44,2025-10-28
+402,Harry Klein,Female,125,harry.klein71@example.com,+491555362676,Berlin,Grocery,Cereal,5,33.36,2025-07-18
+403,OLIVER HARTMANN,Male,33,oliver.hartmann9@example.com,+491626838995,Cologne,Clothing,Sneakers,5,620.6,2025-08-21
+404,James Hartmann,Female,67,james.hartmann4@example.com,+491611738104,Berlin,Sports,Water Bottle,6,118.56,2025-12-28
+405,George Braun,Male,30,george.braun60@example.com,+491707266239,Hamburg,Home,Bedsheet,5,192.97,2025-06-02
+406,Harry Wolf,Male,35,harry.wolf95@example.com,+491556298380, munich ,Clothing,Sneakers,5,482.94,2025-11-04
+407,Olivia Zimmermann,female,36,olivia.zimmermann17@example.com,+491675362082,Berlin,Grocery,Chocolate,4,20.1,2025-07-08
+408,Freddie Becker,Female,40,freddie.becker37@example.com,+491530732147,Hamburg,Clothing,T-Shirt,2,57.59,2025-09-26
+409,Emma Meyer,Male,37,emma.meyer5@example.com,+491667040904,Stuttgart,Grocery,Coffee,6,85.02,2026-05-24
+410,Harper Weber,Male,30,harper.weber75@example.com,+491771096436,Hamburg,Electronics,Monitor,1,355,2025-11-20
+411,Liam Weber,Female,58,liam.weber10@example.com,+491676762188,Berlin,Home,Blender,3,282.44,2026-11-17
+412,Charlie Schmidt,Male,34,charlie.schmidt34@example.com,+491672919280,Munich,Grocery,Chocolate,2,10.65,2026-11-09
+413,Theo Koch,Female,25,,+491625435679,Stuttgart,Home,Desk,6,1515.04,2026-08-22
+414,  Evelyn Lehmann ,Male,52,evelyn.lehmann42@example.com,+491746088797,Munich,Sports,Tennis Racket,3,331.58,2025-10-29
+415,Sofia Schmidt,Male,68,sofia.schmidt56@example.com,+491688377503,Hamburg,Clothing,DRESS,2,160.99,2026-10-27
+416,Elijah Neumann,Female,49,elijah.neumann50@example.com,+491542303625,Hamburg,Sports,Dumbbells,3,189.1,2025-07-02
+417,Sofia Zimmermann,Female,25,sofia.zimmermann45@example.com,+491548726650,Frankfurt,Home,Backpack,3,192.76,2025-07-01
+418,Jack Zimmermann,Female,61,jack.zimmermann73@example.com,+491630229880,Munich,Clothing,Dress,4,370.12,2025-12-24
+419,Sophia Lehmann,Male,40,sophia.lehmann4@example.com,+491791574625,Hamburg,Home,Chair,2,258.34,2025-09-04
+420,Mason Neumann,Female,32,mason.neumann40@example.com,+491627074050,Berlin,Clothing,Dress,3,249.04,2026-09-30
+421,Noah Becker,Male,26,noah.becker74@example.com,+491776788490,Cologne,Home,Bedsheet,4,148.64,2026-02-20
+422,Scarlett Neumann,Female,47,scarlett.neumann90@example.com,+491602147356,Munich,Grocery,Olive Oil,6,64.97,2025-03-29
+423,Nora Zimmermann,Female,19, NORA.ZIMMERMANN9@EXAMPLE.COM ,+491579224936,Dresden,Grocery,Coffee,2,27.32,2026-08-27
+424,Mason Hoffmann,Female,24,mason.hoffmann57@example.com,abc-phone,Cologne,Sports,Dumbbells,3,155.91,2026-01-29
+425,Emma Schmidt,Male,51,emma.schmidt45@example.com,+491614326021,Frankfurt,Home,Blender,5,432.54,2026-07-26
+426,Ava Weber,Male,58,ava.weber9@example.com,+491606343932,munich,Sports,Tennis Racket,2,158.91,2025-12-15
+427,Elijah Weber,Male,20,elijah.weber48@example.com,+491760884529,Berlin,home,Bedsheet,4,147.71,2027-01-01
+428,Grace Weber,Male,21,grace.weber50@example.com,+491740594716,Munich,Clothing,Jeans,3,191.61,
+429,George Becker,Male,30,george.becker4@example.com,+491580585848,Munich,Clothing,Sneakers,4,357.08,2026-04-07
+430,Daniel Meyer,Female,,daniel.meyer3@example.com,+491748713107,Frankfurt,Home,Chair,5,548.7,2026-07-29
+431,George Wagner,Male,55,george.wagner63@example.com,+491622383518,Munich,Electronics,Smartphone,1,725.61,2025-01-20
+432,Oliver Hoffmann,Female,18,oliver.hoffmann37@example.com,+491700861630,Cologne,Home,Lamp,4,181.2,2026-01-09
+433,Harper Hartmann,Male,58,harper.hartmann49@example.com,+491769918788,Cologne,Sports,Yoga Mat,3,103.22,2025-09-15
+434,SOPHIA LEHMANN,Male,21,sophia.lehmann26@example.com,+491676203910,Frankfurt,Sports,Dumbbells,4,242.43,2025-05-14
+435,Scarlett Kruger,Male,40,scarlett.kruger13@example.com,+491763212348, hamburg ,Electronics,Smartwatch,4,951.56,2026-03-30
+436,Mia Weber,Female,27,mia.weber38@example.com,+491618960325,Stuttgart,Home,Backpack,4,256.69,2025-12-04
+437,  Charlotte Hartmann ,Male,60,charlotte.hartmann71@example.com,+491740468657,Cologne,Clothing,Hoodie,2,96.28,2026-05-12
+438,Lucas Krause,Male,46,lucas.krause64@example.com,+491731622959,Stuttgart,Electronics,Smartphone,5,4014.85,2026-09-07
+439,Sofia Wagner,Female,58,sofia.wagner49@example.com,+491615150043,Cologne,Home,Blender,2,154.43,2026-06-18
+440,Henry Hoffmann,Male,34,henry.hoffmann22@example.com,+491766167085,Cologne,Clothing,Jacket,5,627.2,2025-07-06
+441,James Kruger,Female,24,james.kruger2@example.com,+491614744512,Stuttgart,Grocery,Coffee,4,51.27,2025-11-11
+442,Mason Neumann,Female,42,mason.neumann65@example.com,+491636499971,Frankfurt,Clothing,Jacket,5,479.14,2026-10-09
+443,Ava Wagner,Female,20,ava.wagner1@example.com,+491744255047,Stuttgart,Grocery,Pasta,6,19.46,2026-07-29
+444,James Lehmann,female,50,james.lehmann65@example.com,+491718225588,Hamburg,Clothing,Jacket,1,141.38,2025-06-01
+445,Amelia Wolf,Male,65,amelia.wolf31@example.com,+491567352101,Dresden,Sports,Yoga Mat,-2,144.77,2026-07-11
+446,Olivia Hartmann,Male,49,olivia.hartmann36@example.com,+491584358008,Berlin,Home,Desk,4,964.31,2026-04-23
+447,Scarlett Becker,Female,54,scarlett.becker5@example.com,+491737305093,Berlin,Home,Backpack,4,236.07,2025-03-15
+448,Ava Wolf,Female,49,ava.wolf49@example.com,+491632965156,Stuttgart,Electronics,Laptop,3,2537.51,2025-04-11
+449,Isabella Braun,Male,64,isabella.braun78@example.com,+491650354916,Cologne,Grocery,Pasta,2,8.13,2026-05-15
+450,Jacob Neumann,Male,26,jacob.neumann74@example.com,+491516357521,Cologne,Home,Blender,6,468.54,2025-05-11
+451,Hannah Krause,Female,27,hannah.krause8@example.com,+491722289954,Munich,Electronics,Monitor,2,538.64,2025-09-30
+452,Lily Weber,Male,25,lily.weber82@example.com,+491549436670,Munich,Grocery,Tea,4,25.08,08/01/2025
+453,George Hoffmann,Female,37,george.hoffmann24@example.com,+491557900598,Munich,Electronics,Keyboard,1,63.84,2026-07-19
+454,Charlotte Hoffmann,Male,26,charlotte.hoffmann30@example.com,+491543563596,Frankfurt,Home,Blender,1,78.04,2025-10-12
+455,Leo Schmidt,Male,52,leo.schmidt62@example.com,+491680650962,Frankfurt,Home,Desk,2,563.72,2026-09-08
+456,Harper Schmidt,Male,59,harper.schmidt80@example.com,+491663370124,Dresden,Sports,Football,6,202.76,2026-07-18
+457,Aria Koch,Female,67,aria.koch56@example.com,+491756351822,Cologne,Clothing,Sneakers,1,106.05,2025-03-12
+458,Grace Klein,Female,60,grace.klein89@example.com,+491577218082,Frankfurt,Home,Bedsheet,1,31.98,2026-09-14
+459,Isabella Wolf,Female,39,isabella.wolf58@example.com,+491518445190,Frankfurt,Grocery,Pasta,5,18.64,2025-11-07
+460,  Sophia Wolf ,Male,59,sophia.wolf59@example.com,+491650677981,Berlin,Sports,Water Bottle,2,35.62,2025-02-05
+461,Mia Schulz,Male,29,mia.schulz4@example.com,+491777377275,Berlin,Electronics,Earbuds,4,320.71,2025-09-24
+462,Lily Becker,Female,45,lily.becker4@example.com,+491619005261,Frankfurt,Grocery,Tea,1,6.66,2026-07-03
+463,Liam Klein,Male,58,liam.klein74@example.com,+491632245249,Munich,Grocery,Tea,5,29.93,2025-11-27
+464,Nora Fischer,Female,48,nora.fischer94@example.com,+491787055746, munich ,Sports,Running Shoes,2,264.13,2026-11-01
+465,OSCAR ZIMMERMANN,Female,42,oscar.zimmermann74@example.com,+491709119083,Frankfurt,Clothing,Dress,3,218.54,2026-11-06
+466,Charlotte Neumann,Male,43,charlotte.neumann86@example.com,+491566248556,Stuttgart,Electronics,Smartwatch,6,1345.24,2026-08-21
+467,Henry Krause,Female,51,henry.krause15@example.com,+491565364762,Hamburg,Sports,Running Shoes,6,687.95,2026-01-03
+468,Mia Wagner,Female,26,mia.wagner60@example.com,+491533070250,Hamburg,Electronics,Smartphone,4,2999.01,2026-11-08
+469,Leo Klein,Female,0,leo.klein97@example.com,+491569736736,Hamburg,Sports,Running Shoes,1,142.16,2025-09-19
+470,Olivia Schulz,Male,19, OLIVIA.SCHULZ93@EXAMPLE.COM ,+491614617969,Stuttgart,Clothing,Hoodie,2,102.73,2026-11-22
+471,Grace Koch,Female,41,grace.koch60@example.com,+491778262872,Stuttgart,Clothing,T-Shirt,5,156.53,2025-04-30
+472,James Hoffmann,Female,27,missing.com,+491771096658,Berlin,Home,Lamp,4,189.73,2025-11-09
+473,Charlie Weber,Female,,charlie.weber66@example.com,+491720622995,Frankfurt,Electronics,Monitor,5,1566.85,2025-08-09
+474,Ella Kruger,Female,53,ella.kruger23@example.com,+491577480180,Dresden, Grocery ,Tea,4,25.53,2026-04-26
+475,Elijah Krause,Male,23,elijah.krause15@example.com,+491610577673,Berlin,Sports,Football,1,24.48,2026-11-27
+476,Noah Richter,Male,33,noah.richter87@example.com,+491737677283,Berlin,Home,Backpack,3,179.69,2026-04-11
+477,Ava Wolf,Male,29,ava.wolf31@example.com,49 151 000,Cologne,Sports,Running Shoes,4,431.71,2025-11-24
+478,Freddie Kruger,Male,59,freddie.kruger75@example.com,+491646635134,Cologne,Clothing,Hoodie,6,349.08,2025-04-07
+479,Nora Richter,Male,58,nora.richter66@example.com,+491728725989,Berlin,Grocery,Coffee,5,57.96,2026-03-29
+480,James Weber,Female,59,james.weber75@example.com,+491736850611,Dresden,Grocery,Chocolate,1,5.56,2026-04-18
+481,Lucy Becker, MALE ,59,lucy.becker15@example.com,+491606629970,Stuttgart,Grocery,Cereal,1,6.36,2026-07-18
+482,Olivia Schmidt,Male,28,olivia.schmidt44@example.com,+491641820667,Hamburg,Sports,Tennis Racket,3,235.44,2026-11-15
+483,  Liam Krause ,Female,43,liam.krause21@example.com,+491699545341,Stuttgart,Home,Backpack,6,424.3,2026-12-09
+484,Emma Becker,Male,22,emma.becker74@example.com,+491776734059,Stuttgart,Grocery,Cereal,6,34.91,2026-10-19
+485,Ethan Wolf,Female,41,ethan.wolf50@example.com,+491692295924,Frankfurt,Grocery,Olive Oil,3,-100,2025-07-08
+486,Henry Klein,Female,54,henry.klein17@example.com,+491706830927,Munich,Grocery,Chocolate,4,17.86,2025-04-23
+487,Leo Hartmann,Female,64,leo.hartmann45@example.com,+491637106754,Berlin,Clothing,Jacket,5,689.32,2026-09-06
+488,Lucy Krause,Female,23,lucy.krause20@example.com,+491557988335,Berlin,clothing,Dress,6,451.34,2026-03-14
+489,Sophia Neumann,Female,59,sophia.neumann73@example.com,+491791594231,Dresden,Electronics,Smartphone,5,3370.88,2026-11-29
+490,Harper Weber,Male,36,harper.weber5@example.com,+491559733989,Cologne,Grocery,Coffee,3,29.59,2025-03-08
+491,Theo Neumann,Male,39,theo.neumann36@example.com,+491510468991,Dresden,Sports,Water Bottle,3,43.28,2025-11-27
+492,Charlie Wagner,Female,43,charlie.wagner84@example.com,+491680197341,Hamburg,Electronics,Smartwatch,3,553.78,2026-04-23
+493,Theo Hoffmann,Male,40,theo.hoffmann46@example.com,+491795549855, frankfurt ,Clothing,Sneakers,1,115.15,2025-02-04
+494,Arthur Wolf,Female,48,arthur.wolf33@example.com,+491602088277,Dresden,Clothing,Dress,2,151.67,2026-02-05
+495,Jack Weber,Male,34,jack.weber88@example.com,+491590620172,Berlin,Sports,Yoga Mat,3,119.25,2026-05-18
+496,SOPHIA ZIMMERMANN,Female,31,sophia.zimmermann67@example.com,+491650042114,Frankfurt,Home,Desk,6,1702.85,2025-09-30
+497,Arthur Hartmann,Female,42,arthur.hartmann6@example.com,+491766941044,cologne,Electronics,Smartwatch,2,436.95,2025-05-01
+498,Arthur Wagner,Female,51,arthur.wagner50@example.com,+491514109826,Hamburg,Clothing,HOODIE,1,48.61,2025-10-28
+499,Charlotte Hartmann,Male,37,charlotte.hartmann85@example.com,+491665249652,Berlin,Clothing,Sneakers,6,609.45,2025-02-07
+500,Lily Klein,Male,27,lily.klein73@example.com,+491623980498,Hamburg,Sports,Tennis Racket,6,589.2,2025-05-26
+501,Sofia Lehmann,Female,22,sofia.lehmann22@example.com,+491581235782,Munich,Electronics,Laptop,3,3026.35,2026-10-20
+502,Charlie Zimmermann,Male,40,charlie.zimmermann58@example.com,+491642837949,Cologne,Grocery,Olive Oil,1,13.08,2025-08-10
+503,Harper Hartmann,Male,59,harper.hartmann5@example.com,+491765454766,Munich,Grocery,Coffee,1,14.08,2026-11-23
+504,Ava Fischer,Male,65,ava.fischer54@example.com,+491637205372,Berlin,Sports,Dumbbells,2,95.7,2025-07-28
+505,Charlie Richter,Female,28,charlie.richter82@example.com,+491633464762,Cologne,Grocery,Chocolate,1,4.79,2025-05-07
+506,  Jack Fischer ,Female,59,jack.fischer13@example.com,+491745395682,Berlin,Electronics,Monitor,5,1569.85,2026-03-31
+507,Daniel Neumann,Female,21,daniel.neumann50@example.com,+491544650350,Berlin,Sports,Yoga Mat,5,196.14,2025-04-06
+508,Harry Hartmann,Male,68,harry.hartmann19@example.com,+491587056416,Cologne,Grocery,Chocolate,2,10.67,2026-10-17
+509,Oliver Schulz,Male,45,oliver.schulz46@example.com,+491708105867,Cologne,Sports,Running Shoes,2,226.47,2026-06-30
+510,Aria Koch,Male,34,aria.koch29@example.com,+491663607872,Cologne,Electronics,Smartwatch,2,467.88,2026-09-11
+511,Oscar Hoffmann,Female,28,oscar.hoffmann62@example.com,+491768578242,Berlin,Electronics,Smartwatch,5,845.17,2025-07-04
+512,Lucy Braun,Male,49,lucy.braun72@example.com,+491561838898,Cologne,Grocery,Cereal,6,38.55,2026-06-25
+513,Theo Schmidt,Female,18,theo.schmidt35@example.com,+491668089824,Frankfurt,Electronics,Smartwatch,3,620.75,2026-09-13
+514,Harry Meyer,Male,39,harry.meyer23@example.com,+491577824878,Dresden,Grocery,Pasta,6,25.7,2026-01-29
+515,Scarlett Hoffmann,Female,57,scarlett.hoffmann45@example.com,+491644657913,Berlin,Electronics,Earbuds,1,71.44,2026-11-26
+516,Arthur Becker,Female,,arthur.becker15@example.com,+491652600723,Stuttgart,Clothing,Sneakers,1,122.95,2025-03-03
+517,Charlie Zimmermann,Male,68, CHARLIE.ZIMMERMANN91@EXAMPLE.COM ,+491655201737,Munich,Clothing,Hoodie,4,230.87,2026-12-24
+518,Amelia Becker,female,37,amelia.becker62@example.com,+491597156997,Dresden,Clothing,Jacket,6,627.48,2025-05-31
+519,Harper Schmidt,Female,66,harper.schmidt29@example.com,+491781687650,Stuttgart,Home,Backpack,6,374.03,2025-08-31
+520,Harper Kruger,Male,36,harper.kruger4@example.com,+491565699085,Frankfurt,Sports,Dumbbells,4,245.16,2026-08-05
+521,Liam Meyer,Male,44,liam.meyer59@example.com,+491585514750,Berlin,Sports,Running Shoes,2,208.06,2025-05-01
+522,Ethan Braun,Female,65,ethan.braun54@example.com,+491704010602, berlin ,Electronics,Keyboard,3,211.23,2025-02-05
+523,Hannah Wolf,Female,18,hannah.wolf33@example.com,+491706177964,Berlin,Sports,Yoga Mat,3,95.42,2026-11-01
+524,Daniel Lehmann,Male,28,daniel.lehmann3@example.com,+491522071485,Dresden,Sports,Dumbbells,2,125.59,2025-02-18
+525,James Schulz,Female,67,james.schulz20@example.com,+491652675657,Munich,Home,Bedsheet,2,63.89,2026-12-09
+526,Ava Meyer,Male,39,ava.meyer58@example.com,+491693093102,Frankfurt,Sports,Water Bottle,6,113.48,2026-05-31
+527,HENRY BECKER,Female,48,henry.becker12@example.com,+491776354157,Cologne,Clothing,Jacket,1,95.39,2025-12-21
+528,Charlotte Schneider,Male,56,charlotte.schneider99@example.com,+491632902478,Dresden,Electronics,Laptop,5,4770.61,2025-08-17
+529,  Noah Richter ,Male,47,noah.richter81@example.com,+491634501242,Munich,Home,Desk,1,281.8,2025-08-09
+530,Aria Wagner,Female,32,aria.wagner96@example.com,49 151 000,Frankfurt,Home,Blender,2,141.85,2026-07-23
+531,Oscar Weber,Female,50,missing.com,+491735695993,Cologne,Grocery,Tea,1,6.31,2026-01-30
+532,James Fischer,Male,42,james.fischer41@example.com,+491531342984,Dresden,Electronics,Earbuds,2,211.51,2025-11-22
+533,Evelyn Hoffmann,Female,40,evelyn.hoffmann10@example.com,+491657453477,Frankfurt,Grocery,Cereal,2,10.19,2026-09-25
+534,Theo Koch,Male,50,theo.koch50@example.com,+491611740844,Hamburg,Electronics,Keyboard,zero,313.76,2025-01-20
+535,Amelia Schneider,Male,32,amelia.schneider21@example.com,+491584916647,Dresden,Grocery,Coffee,2,27.4,
+536,Harry Zimmermann,Male,15,harry.zimmermann11@example.com,+491637872183,Dresden,Grocery,Cereal,6,31.06,2026-06-10
+537,George Hoffmann,Female,45,george.hoffmann21@example.com,+491702547411,Munich,Electronics,Smartwatch,6,980.25,2026-11-23
+538,Charlotte Hartmann,Male,22,charlotte.hartmann36@example.com,+491531049717,Munich,Electronics,Laptop,5,4008.63,2025-10-20
+539,Jacob Wolf,Female,38,jacob.wolf47@example.com,+491713225186,Cologne,Grocery,Cereal,5,29.38,2025-10-12
+540,Liam Hartmann,Female,21,liam.hartmann40@example.com,+491540330742,Dresden,Electronics,Keyboard,4,246.01,2025-08-15
+541,Grace Zimmermann,Male,25,grace.zimmermann5@example.com,+491726962764,Hamburg,Sports,Dumbbells,3,181.89,2025-02-26
+542,Lucas Meyer,Female,33,lucas.meyer67@example.com,+491695230620,Munich,Clothing,Dress,3,305.42,2026-09-25
+543,Mason Krause,Male,45,mason.krause16@example.com,+491524586877,Munich,Grocery,Olive Oil,1,9.44,2026-07-22
+544,Emma Zimmermann,Male,46,emma.zimmermann35@example.com,+491719371408,Stuttgart,Clothing,Jacket,5,574.64,2026-07-11
+545,Ethan Lehmann,Female,35,ethan.lehmann3@example.com,+491649677987,Cologne,Clothing,Dress,6,593.09,2025-12-02
+546,Mason Kruger,Male,26,mason.kruger16@example.com,+491731241365,Cologne,Clothing,Jacket,5,655.78,2026-08-15
+547,Nora Wolf,Female,40,nora.wolf58@example.com,+491666392794,Frankfurt,Electronics,Earbuds,5,498.48,2026-05-13
+548,Jacob Wolf,Female,33,jacob.wolf24@example.com,+491536247657,Hamburg,Clothing,Hoodie,1,62.72,2025-03-04
+549,Harper Wolf,Female,38,harper.wolf45@example.com,+491723350167,Berlin,home,Bedsheet,3,106.4,2026-06-01
+550,Mia Schmidt,Male,27,mia.schmidt57@example.com,+491667559032,Munich,Grocery,Chocolate,3,12.73,2026-02-09
+551,Amelia Krause,Male,63,amelia.krause81@example.com,+491545552258, munich ,Grocery,Coffee,1,11.91,2026-11-30
+552,  Lucas Schulz ,Female,23,lucas.schulz50@example.com,+491768779115,Cologne,Sports,Tennis Racket,4,414.92,2025-08-28
+553,Mason Kruger,Female,64,mason.kruger5@example.com,+491726679041,Berlin, Clothing ,Jeans,1,67.49,2025-10-22
+554,Elijah Zimmermann,Male,58,elijah.zimmermann68@example.com,+491620498143,Dresden,Electronics,Monitor,3,998.25,2025-05-12
+555,Charlotte Zimmermann,F,43,charlotte.zimmermann59@example.com,+491727001863,Hamburg,Electronics,Smartwatch,5,918.31,2026-12-05
+556,Jack Hoffmann,Male,40,jack.hoffmann68@example.com,+491606747846,Frankfurt,Home,Bedsheet,4,150.82,2025-08-21
+557,Chloe Klein,Female,55,chloe.klein94@example.com,+491527567946,Cologne,Electronics,Monitor,5,1478.01,2025-04-30
+558,NORA SCHULZ,Female,19,nora.schulz67@example.com,+491572098079,Stuttgart,Sports,Water Bottle,4,75.92,2026-10-09
+559,Olivia Wagner,Female,,olivia.wagner82@example.com,+491759096517,Stuttgart,Clothing,T-Shirt,3,94.97,2025-02-04
+560,Freddie Neumann,Female,41,freddie.neumann7@example.com,+491732351097,Hamburg,Grocery,Cereal,5,24.18,2026-06-24
+561,Arthur Wagner,Female,51,arthur.wagner36@example.com,+491687469249,Hamburg,Clothing,Jeans,1,76.64,2025-06-02
+562,Mia Kruger,Male,61,mia.kruger19@example.com,+491525515756,Hamburg,Electronics,Keyboard,4,222.74,2025-07-07
+563,Mia Becker,Male,36,mia.becker90@example.com,+491702734244,Munich,Home,Chair,1,131.29,2025-02-01
+564,Daniel Weber,Male,49, DANIEL.WEBER57@EXAMPLE.COM ,+491628433765,Berlin,Home,Chair,3,378.66,2025-05-03
+565,Ella Braun,Female,28,ella.braun33@example.com,+491791505585,Cologne,Clothing,Jeans,6,443.5,16/06/2025
+566,James Meyer,Female,59,james.meyer34@example.com,+491754207398,Berlin,Electronics,Keyboard,4,242.78,2025-04-12
+567,Lucy Schneider,Female,19,lucy.schneider63@example.com,+491645613437,Berlin,Home,Lamp,4,155.02,2025-12-18
+568,Liam Braun,Female,22,liam.braun81@example.com,+491567553916,BERLIN,Grocery,Pasta,5,20.23,2026-02-01
+569,Harry Koch,Male,59,harry.koch54@example.com,+491653212701,Munich,Home,Chair,3,456.87,2026-10-10
+570,James Lehmann,Male,38,james.lehmann99@example.com,+491622985166,Stuttgart,Clothing,Sneakers,1,90.98,2026-05-19
+571,Chloe Neumann,Female,27,chloe.neumann82@example.com,+491628562563,Berlin,Grocery,Olive Oil,2,20.67,2025-05-18
+572,Leo Weber,Female,56,leo.weber74@example.com,+491693738034,Hamburg,Sports,Dumbbells,3,171.71,2025-08-25
+573,Oliver Fischer,Female,63,oliver.fischer35@example.com,+491598288861,Hamburg,Clothing,Sneakers,3,391,2026-07-17
+574,Arthur Schulz,Female,56,arthur.schulz40@example.com,+491529008308,Cologne,Electronics,Keyboard,6,287.33,2025-03-05
+575,  Chloe Becker ,Male,41,chloe.becker42@example.com,+491642531920,Hamburg,Sports,Running Shoes,2,243.82,2026-12-24
+576,Harper Kruger,Male,37,harper.kruger77@example.com,+491634955099,Frankfurt,Sports,Dumbbells,2,104.82,2025-02-01
+577,Ethan Neumann,Male,68,ethan.neumann8@example.com,+491722871550,Stuttgart,Grocery,Tea,6,39.82,2026-02-19
+578,Mason Schulz,Female,35,mason.schulz74@example.com,+491510455844,Berlin,Home,Chair,5,547.51,2025-12-09
+579,Sophia Meyer,Female,37,sophia.meyer98@example.com,+491766657762,Cologne,Sports,Football,5,141.68,2025-01-02
+580,Scarlett Wolf,Female,64,scarlett.wolf92@example.com,+491704538363, frankfurt ,Home,Lamp,4,147.75,2025-12-08
+581,Ethan Hoffmann,Male,46,ethan.hoffmann35@example.com,+491551535545,Berlin,Sports,WATER BOTTLE,1,19.68,2025-07-24
+582,Isabella Zimmermann,Male,68,isabella.zimmermann66@example.com,+491669008377,Frankfurt,Sports,Football,5,,2026-05-12
+583,Elijah Krause,Female,25,elijah.krause82@example.com,12345,Dresden,Sports,Football,4,118.29,2026-03-10
+584,Freddie Wolf,Male,30,freddie.wolf27@example.com,+491708405416,Hamburg,Clothing,T-Shirt,4,113.73,2026-12-02
+585,Daniel Meyer,Female,51,daniel.meyer24@example.com,+491603261875,Dresden,Clothing,Jacket,6,802.27,2025-08-20
+586,Charlie Schulz,Male,57,charlie.schulz93@example.com,+491594878166,Munich,Clothing,Hoodie,1,50.31,2025-01-31
+587,Chloe Fischer,Female,30,chloe.fischer94@example.com,+491593835510,Munich,Home,Chair,5,636.78,2026-03-27
+588,Isabella Wagner,Female,23,isabella.wagner77@example.com,+491625012043,Munich,Clothing,Jeans,3,246.1,2026-06-16
+589,MIA SCHULZ,Male,40,mia.schulz75@example.com,+491555559393,Cologne,Clothing,Sneakers,1,119.31,2026-08-18
+590,Mason Hoffmann,Male,47,,+491524078745,Cologne,Home,Blender,1,72.9,2025-12-05
+591,Aria Kruger,Female,51,aria.kruger39@example.com,+491618032465,Stuttgart,Electronics,Earbuds,2,196.98,2025-03-21
+592,Aria Fischer,male,67,aria.fischer74@example.com,+491554028896,Hamburg,Electronics,Laptop,5,4676.56,2026-02-06
+593,Jack Krause,Female,20,jack.krause12@example.com,+491655706795,Berlin,Home,Backpack,2,127.91,2025-06-07
+594,George Schneider,Female,38,george.schneider86@example.com,+491539820587,Cologne,Electronics,Laptop,3,2749.57,2025-12-20
+595,Oliver Klein,Female,31,oliver.klein23@example.com,+491737361312,Stuttgart,Grocery,Cereal,5,31.1,2025-11-28
+596,Nora Krause,Female,40,nora.krause39@example.com,+491680012749,Cologne,Clothing,T-Shirt,6,156.23,2025-11-28
+597,George Koch,Male,37,george.koch17@example.com,+491769882376,Hamburg,Sports,Running Shoes,1,127.65,2026-05-28
+598,  Sofia Schneider ,Female,23,sofia.schneider37@example.com,+491596346642,Dresden,Electronics,Monitor,4,1020.86,2025-05-07
+599,Mia Klein,Female,33,mia.klein99@example.com,+491695182297,Munich,Electronics,Smartwatch,6,1015.76,2026-09-04
+599,Mia Klein,Female,33,mia.klein99@example.com,+491695182297,Munich,Electronics,Smartwatch,6,1015.76,2026-09-04
+601,Jacob Weber,Female,27,jacob.weber2@example.com,+491692828004,Dresden,Grocery,Olive Oil,4,43.78,2026-03-12
+602,Harry Neumann,Male,unknown,harry.neumann71@example.com,+491798343391,Frankfurt,Electronics,Monitor,3,912.78,2025-03-12
+603,Sophia Schulz,Male,0,sophia.schulz52@example.com,+491649558423,Munich,Clothing,Dress,4,348.01,2026-03-22
+604,Ava Wagner,Male,25,ava.wagner14@example.com,+491546141596,Frankfurt,Sports,Football,5,117.74,2025-01-26
+605,Sofia Schneider,Male,23,sofia.schneider75@example.com,+491633623256,Hamburg,Grocery,Olive Oil,5,64.48,2026-06-30
+606,Olivia Schulz,Female,32,olivia.schulz53@example.com,+491627320026,Frankfurt,Home,Backpack,5,389.35,2026-07-21
+607,Lucas Schneider,Male,35,lucas.schneider73@example.com,+491761935438,Cologne,Electronics,Smartphone,1,638,2026-12-16
+608,Lucas Hoffmann,Male,25,lucas.hoffmann38@example.com,+491612791887,Munich,Grocery,Olive Oil,2,18.85,2025-06-28
+609,Scarlett Kruger,Male,51,scarlett.kruger44@example.com,+491622456043, cologne ,Home,Desk,4,1093.32,2026-03-09
+610,Arthur Hoffmann,Female,34,arthur.hoffmann53@example.com,+491568573011,Berlin,grocery,Olive Oil,6,75.53,2026-12-23
+611,Elijah Weber,Male,44, ELIJAH.WEBER68@EXAMPLE.COM ,+491622861715,Berlin,Clothing,T-Shirt,2,63.45,2026-06-11
+612,Jack Fischer,Female,58,jack.fischer13@example.com,+491691573593,Frankfurt,Electronics,Laptop,6,4944.82,2026-03-02
+613,Mia Hoffmann,Female,57,mia.hoffmann90@example.com,+491725378364,Frankfurt,Electronics,Monitor,6,1683.91,2026-12-18
+614,Isabella Weber,Male,46,isabella.weber98@example.com,+491643914353,Cologne,Electronics,Smartwatch,4,952.32,2025-03-27
+615,Olivia Fischer,Male,54,olivia.fischer70@example.com,+491666006157,Stuttgart,Sports,Running Shoes,1,141.83,2026-12-02
+616,Harper Neumann,Male,32,harper.neumann87@example.com,+491673040577,Cologne,Home,Chair,6,852.46,2026-01-24
+617,Oscar Lehmann,Male,23,oscar.lehmann24@example.com,+491513013003,Munich,Electronics,Keyboard,3,186.78,2025-09-30
+618,Oscar Richter,Male,23,oscar.richter2@example.com,+491658663656,Hamburg,Clothing,Jacket,2,282.59,2026-09-17
+619,Lily Krause,Female,56,lily.krause83@example.com,+491724503211,Frankfurt,Sports,Yoga Mat,1,38.92,2026-10-13
+620,THEO BRAUN,Male,25,theo.braun85@example.com,+491796779341,Berlin,Home,Backpack,1,58.08,2026-09-14
+621,  Harry Becker ,Female,40,harry.becker65@example.com,+491717272613,Cologne,Electronics,Earbuds,1,102.55,2025-05-05
+622,Elijah Hoffmann,Male,58,elijah.hoffmann38@example.com,+491618324112,Berlin,Home,Lamp,3,134.69,2026-12-30
+623,Oliver Weber,Male,61,oliver.weber42@example.com,+491774507645,Frankfurt,Sports,Dumbbells,zero,107.87,2025-08-18
+624,Sophia Richter,Male,27,sophia.richter85@example.com,+491699856580,Berlin,Home,Backpack,2,144.69,2026-12-17
+625,Sofia Schulz,Male,46,sofia.schulz44@example.com,+491573533941,Hamburg,Electronics,Smartphone,6,4333.31,2025-03-29
+626,Mia Schulz,Male,56,mia.schulz56@example.com,+491692569671,Dresden,Clothing,Jeans,5,350.81,2025-10-31
+627,Scarlett Neumann,Male,18,scarlett.neumann71@example.com,+491699905511,Munich,Sports,Running Shoes,4,505.18,2026-07-17
+628,Liam Braun,Male,19,liam.braun30@example.com,+491615309486,Munich,Sports,Water Bottle,5,87.59,2026-06-29
+629,Ava Wolf,female,19,ava.wolf47@example.com,+491535249069,Frankfurt,Clothing,Jacket,3,368.89,2025-05-03
+630,Daniel Hartmann,Female,65,daniel.hartmann32@example.com,+491739119804,Cologne,Grocery,Olive Oil,3,29.88,2025-03-09
+631,George Meyer,Male,52,george.meyer77@example.com,+491666827816,Berlin,Clothing,Hoodie,3,154.97,2025-07-07
+632,Harper Koch,Female,31,harper.koch5@example.com,+491538570567,Munich, Clothing ,Dress,6,579.8,2025-10-07
+633,Lucas Fischer,Male,52,lucas.fischer39@example.com,+491701332792,Dresden,Sports,Water Bottle,5,87.94,2025-03-11
+634,Olivia Wolf,Female,42,olivia.wolf48@example.com,+491539386083,Cologne,Home,Blender,5,436.74,2026-05-06
+635,Sofia Lehmann,Male,41,sofia.lehmann70@example.com,+491647934039,Dresden,Grocery,Chocolate,6,35.93,2026-08-15
+636,Arthur Schulz,Female,31,arthur.schulz34@example.com,49 151 000,Cologne,Sports,Water Bottle,6,94.25,2025-01-09
+637,Leo Wagner,Male,33,leo.wagner14@example.com,+491665270261,Berlin,Electronics,Earbuds,1,73.98,2025-05-27
+638,Evelyn Weber,Female,45,evelyn.weber66@example.com,+491525375200, dresden ,Grocery,Pasta,3,10.32,2026-10-22
+639,Scarlett Braun,Male,19,scarlett.braun95@example.com,+491773742648,cologne,Grocery,Pasta,3,12.34,2026-05-29
+640,Mia Kruger,Female,58,mia.kruger45@example.com,+491584261672,Hamburg,Electronics,Laptop,5,5279.46,2025-03-23
+641,Charlotte Schmidt,Female,25,charlotte.schmidt51@example.com,+491589216264,Cologne,Clothing,Dress,1,76.31,2025-11-23
+642,Scarlett Becker,Female,66,scarlett.becker94@example.com,+491706822636,Stuttgart,Grocery,Olive Oil,6,58.02,
+643,Oscar Hoffmann,Female,34,oscar.hoffmann38@example.com,+491628518133,Munich,Grocery,Coffee,3,33.58,2026-07-05
+644,  Lily Wagner ,Female,44,lily.wagner85@example.com,+491532856210,Munich,Clothing,Dress,1,101.43,2026-04-16
+645,Lucas Fischer,Female,,lucas.fischer21@example.com,+491798435585,Frankfurt,Grocery,Pasta,5,21.22,2025-07-02
+646,James Zimmermann,Male,40,james.zimmermann82@example.com,+491584499664,Berlin,Home,Desk,2,579.88,2026-10-02
+647,Oscar Koch,Female,47,oscar.koch75@example.com,+491795653845,Munich,Electronics,Earbuds,5,426.83,2025-04-18
+648,Charlotte Neumann,Female,41,charlotte.neumann96@example.com,+491541355230,Berlin,Home,Desk,3,734.69,2025-01-01
+649,Lucas Hoffmann,Male,18,customer@,+491563390691,Cologne,Grocery,Cereal,1,6.96,2025-02-08
+650,Jacob Schmidt,Male,45,jacob.schmidt1@example.com,+491598470319,Cologne,Grocery,Pasta,6,24.64,2025-06-17
+651,AMELIA WEBER,Female,43,amelia.weber68@example.com,+491667985543,Frankfurt,Clothing,Dress,1,104.73,2025-08-02
+652,James Schneider,Female,45,james.schneider65@example.com,+491687529287,Berlin,Home,Lamp,4,210.41,2025-11-08
+653,James Wagner,Female,45,james.wagner67@example.com,+491599425777,Berlin,Electronics,Earbuds,2,142.5,2025-09-19
+654,Aria Wolf,Male,39,aria.wolf45@example.com,+491635822265,Munich,Home,Desk,3,762.53,2025-10-25
+655,Olivia Wolf,Female,35,olivia.wolf78@example.com,+491572675081,Stuttgart,Sports,Running Shoes,2,228.53,2026-01-04
+656,Jack Zimmermann,Male,56,jack.zimmermann17@example.com,+491660276398,Dresden,Electronics,Earbuds,5,414.4,2025-06-25
+657,Leo Schneider,Female,49,leo.schneider53@example.com,+491677015919,Berlin,Clothing,Sneakers,6,714.94,2026-04-11
+658,Amelia Kruger,Female,26, AMELIA.KRUGER45@EXAMPLE.COM ,+491749459710,Frankfurt,Home,Chair,5,519.53,2025-12-24
+659,Jack Krause,Female,24,jack.krause99@example.com,+491565772380,Frankfurt,Home,Bedsheet,1,33.73,2025-10-07
+660,Jack Becker,Male,67,jack.becker18@example.com,+491715194273,Munich,Home,Bedsheet,6,275.84,2026-09-29
+661,Harper Lehmann,Female,40,harper.lehmann10@example.com,+491765902677,Berlin,Clothing,Dress,6,428.52,2026-10-08
+662,Chloe Schulz,Male,44,chloe.schulz68@example.com,+491649968466,Stuttgart,Grocery,Chocolate,6,24.41,2026-07-07
+663,Mia Richter,Female,68,mia.richter78@example.com,+491696889752,Hamburg,Grocery,Tea,6,41.34,2025-07-02
+664,Liam Wagner,Male,62,liam.wagner85@example.com,+491767394984,Munich,Grocery,OLIVE OIL,4,41.09,2025-03-19
+665,Charlie Richter,Male,52,charlie.richter33@example.com,+491511981632,Munich,Grocery,Cereal,1,5.36,2026-10-28
+666,Sophia Koch,male,62,sophia.koch50@example.com,+491667759272,Dresden,Home,Bedsheet,6,190.87,2025-07-21
+667,  Elijah Wagner ,Male,43,elijah.wagner55@example.com,+491728166244, frankfurt ,Clothing,Jeans,3,202.77,2026-09-19
+668,Ethan Zimmermann,Female,44,ethan.zimmermann73@example.com,+491780088284,Dresden,Home,Desk,6,1325.7,2026-09-22
+669,Charlotte Becker,Female,29,charlotte.becker73@example.com,+491542198031,Stuttgart,Grocery,Pasta,1,3.58,2025-07-05
+670,Isabella Weber,Female,125,isabella.weber60@example.com,+491627119775,Dresden,Electronics,Laptop,3,2464.03,2026-12-03
+671,Noah Wolf,Female,40,noah.wolf6@example.com,+491531942677,Munich,grocery,Cereal,4,27.14,2026-06-17
+672,Isabella Kruger,Female,28,isabella.kruger44@example.com,+491714445950,Frankfurt,Grocery,Pasta,6,27.6,2026-08-14
+673,Harry Meyer,Male,19,harry.meyer74@example.com,+491542932883,Berlin,Electronics,Monitor,1,280.12,2026-11-29
+674,Evelyn Richter,Female,60,evelyn.richter75@example.com,+491553539617,Berlin,Home,Backpack,5,383.35,2026-08-15
+675,Emma Schneider,Female,52,emma.schneider95@example.com,+491735080619,Berlin,Grocery,Coffee,5,53.14,2026-02-25
+676,Leo Fischer,Male,61,leo.fischer15@example.com,+491714771880,Frankfurt,Grocery,Chocolate,5,24.57,2026-12-29
+677,Henry Hoffmann,Male,58,henry.hoffmann41@example.com,+491649269296,Frankfurt,Clothing,Jacket,1,101.59,2025-08-07
+678,Sophia Richter,Male,30,sophia.richter83@example.com,+491588346044,Hamburg,Grocery,Tea,6,45.37,02/04/2026
+679,Mia Schmidt,Female,42,mia.schmidt46@example.com,+491728058336,Hamburg,Home,Blender,6,-100,2025-03-07
+680,Ava Schmidt,Male,64,ava.schmidt31@example.com,+491612299775,Dresden,Grocery,Tea,2,11.59,2025-09-24
+681,Harper Hartmann,Male,61,harper.hartmann20@example.com,+491550650660,Cologne,Home,Chair,1,125.24,2025-09-03
+682,LIAM KRUGER,Male,29,liam.kruger94@example.com,+491725371450,Hamburg,Grocery,Pasta,3,9.69,2026-03-07
+683,Liam Hartmann,Female,53,liam.hartmann86@example.com,+491634403262,Munich,Electronics,Smartwatch,2,395.61,2025-10-07
+684,Olivia Kruger,Female,68,olivia.kruger28@example.com,+491787058624,Cologne,Home,Backpack,4,266.46,2026-07-21
+685,Jacob Richter,Female,47,jacob.richter21@example.com,+491604554340,Berlin,Electronics,Smartphone,6,4085.1,2026-07-25
+686,Liam Zimmermann,Male,29,liam.zimmermann42@example.com,+491670212503,Cologne,Electronics,Laptop,2,1633.83,2026-10-18
+687,Lily Krause,Male,43,lily.krause48@example.com,+491698033320,Stuttgart,Home,Backpack,5,298.02,2025-10-23
+688,Daniel Neumann,Male,,daniel.neumann37@example.com,+491700300116,Dresden,Home,Blender,6,392.46,2026-10-31
+689,Mason Wolf,Female,68,mason.wolf49@example.com,12345,Dresden,Electronics,Earbuds,3,289.81,2025-05-21
+690,  Leo Krause ,Male,62,leo.krause14@example.com,+491714671686,Berlin,Clothing,Sneakers,3,316.29,2025-05-08
+691,Oliver Schneider,Male,28,oliver.schneider84@example.com,+491598083656,Cologne,Home,Backpack,4,225.6,2025-04-17
+692,Hannah Neumann,Female,38,hannah.neumann69@example.com,+491534698295,Cologne,Electronics,Earbuds,5,460.37,2025-05-21
+693,Charlie Neumann,Male,64,charlie.neumann83@example.com,+491733479921,Munich,Clothing,T-Shirt,6,167.94,2026-07-12
+694,Nora Fischer,Male,68,nora.fischer36@example.com,+491659090492,Munich,Sports,Dumbbells,6,346.56,2026-05-05
+695,Harry Richter,Male,51,harry.richter51@example.com,+491616861748,Cologne,Home,Lamp,6,309.16,2026-11-20
+696,Mason Kruger,Female,23,mason.kruger20@example.com,+491640541792, hamburg ,Electronics,Smartwatch,5,821.24,2025-12-20
+697,Charlie Hartmann,Female,53,charlie.hartmann5@example.com,+491539982366,Berlin,Sports,Dumbbells,6,265.98,2026-06-07
+698,Grace Krause,Male,23,grace.krause33@example.com,+491780215703,Berlin,Grocery,Tea,5,41.57,2025-01-27
+699,Jack Klein,Male,54,jack.klein56@example.com,+491765233705,Stuttgart,Electronics,Keyboard,6,418.5,2025-01-27
+700,Scarlett Richter,Male,64,scarlett.richter1@example.com,+491570364589,Frankfurt,Clothing,Jacket,2,193.63,2026-09-08
+701,Liam Fischer,Female,29,liam.fischer3@example.com,+491695039222,Cologne,Home,Bedsheet,2,83.4,2025-06-25
+702,Leo Meyer,Female,58,leo.meyer95@example.com,+491775454684,Dresden,Grocery,Pasta,4,15.97,2025-02-17
+703,Scarlett Hartmann,F,44,scarlett.hartmann76@example.com,+491644363131,Dresden,Home,Backpack,6,418.94,2025-12-10
+704,Amelia Weber,Female,48,amelia.weber2@example.com,+491623704858,Munich,Grocery,Cereal,6,31.35,2026-12-01
+705,Sofia Hartmann,Male,28, SOFIA.HARTMANN70@EXAMPLE.COM ,+491571383203,Hamburg,Electronics,Keyboard,5,327.79,2026-01-29
+706,Freddie Schmidt,Male,55,freddie.schmidt70@example.com,+491765523081,Munich,Electronics,Monitor,1,337.27,2025-05-02
+707,Lucy Schulz,Male,43,lucy.schulz48@example.com,+491696434594,Dresden,Clothing,Jacket,5,682.42,2026-08-12
+708,Jacob Fischer,Female,41,missing.com,+491794988021,Stuttgart,Home,Desk,1,278.17,2025-03-22
+709,Oliver Braun,Male,55,oliver.braun79@example.com,+491670892251,Cologne,Electronics,Earbuds,2,143.24,2026-01-03
+710,Sofia Koch,Female,68,sofia.koch31@example.com,+491631352404,munich,Sports,Water Bottle,1,20.06,2026-01-15
+711,Grace Koch,Male,63,grace.koch49@example.com,+491702489262,Cologne, Grocery ,Pasta,4,13.24,2025-08-27
+712,Sofia Koch,Male,19,sofia.koch2@example.com,+491706729172,Hamburg,Electronics,Earbuds,10 units,174.18,2025-07-05
+713,  LILY BRAUN ,Female,58,lily.braun27@example.com,+491563028826,Cologne,Electronics,Smartphone,6,4291.25,2026-03-25
+714,Sophia Hoffmann,Female,49,sophia.hoffmann1@example.com,+491790350894,Frankfurt,Electronics,Keyboard,1,55.38,2026-11-19
+715,Harry Schneider,Male,50,harry.schneider9@example.com,+491756719906,Cologne,Clothing,Sneakers,3,306.01,2025-03-18
+716,Leo Fischer,Male,37,leo.fischer37@example.com,+491739754923,Dresden,Grocery,Pasta,4,12.87,2025-11-05
+717,Scarlett Krause,Male,46,scarlett.krause48@example.com,+491630302523,Stuttgart,Electronics,Smartphone,6,5017.03,2025-08-11
+718,Nora Klein,Female,22,nora.klein73@example.com,+491668198354,Frankfurt,Grocery,Coffee,3,37.8,2026-07-23
+719,Freddie Wagner,Female,47,freddie.wagner49@example.com,+491522321993,Berlin,Electronics,Smartphone,2,1217.89,2026-04-13
+720,Charlie Klein,Female,44,charlie.klein68@example.com,+491732083743,Dresden,Grocery,Cereal,2,13.7,2026-12-31
+721,Oscar Weber,Male,40,oscar.weber60@example.com,+491642794244,Dresden,Sports,Water Bottle,3,47.75,2026-02-16
+722,Sophia Braun,Female,49,sophia.braun41@example.com,+491773832246,Stuttgart,Electronics,Monitor,4,1382.77,2025-09-14
+723,Evelyn Fischer,Female,60,evelyn.fischer11@example.com,+491578813139,Dresden,Home,Lamp,6,250.21,2026-04-26
+724,Aria Schmidt,Female,63,aria.schmidt73@example.com,+491551272552,Cologne,Clothing,Jeans,4,305.22,2025-02-16
+725,Elijah Weber,Male,64,elijah.weber44@example.com,+491597871308, berlin ,Sports,Football,2,58.71,2025-02-10
+726,Jacob Wolf,Female,20,jacob.wolf6@example.com,+491725150674,Frankfurt,Sports,Running Shoes,6,681.39,2025-09-19
+727,Sofia Neumann,Female,65,sofia.neumann53@example.com,+491580317646,Cologne,Clothing,Hoodie,6,335.42,2025-05-17
+728,George Wolf,Male,61,george.wolf50@example.com,+491634085206,Cologne,Grocery,Chocolate,6,28.62,2025-04-21
+729,Sophia Schmidt,Male,37,sophia.schmidt25@example.com,+491660867355,Dresden,Clothing,Dress,4,307.9,2026-01-20
+730,Chloe Schulz,Male,27,chloe.schulz2@example.com,+491765400696,Cologne,Clothing,Sneakers,6,765.83,2025-01-20
+731,Ella Weber,Female,,ella.weber18@example.com,+491784283313,Stuttgart,Electronics,Monitor,1,331.02,2025-02-13
+732,Liam Wolf,Male,36,liam.wolf28@example.com,+491670559225,Munich,electronics,Smartphone,5,3322.6,2026-06-27
+733,Oliver Wolf,Female,24,oliver.wolf79@example.com,+491637669177,Munich,Grocery,Coffee,5,64.77,2025-04-16
+734,Leo Schmidt,Female,32,leo.schmidt3@example.com,+491740891979,Stuttgart,Electronics,Keyboard,6,317.36,2026-12-04
+735,Lucy Lehmann,Female,57,lucy.lehmann77@example.com,+491773935234,Dresden,Home,Bedsheet,4,152.09,2025-05-11
+736,  Grace Kruger ,Male,31,grace.kruger72@example.com,+491745054194,Stuttgart,Grocery,Coffee,2,26.28,2026-10-23
+737,Charlotte Fischer,Male,125,charlotte.fischer63@example.com,+491656245366,Munich,Home,Desk,3,610.97,2026-04-12
+738,Mason Hoffmann,Female,26,mason.hoffmann8@example.com,+491764294841,Cologne,Grocery,Coffee,2,26.59,2026-01-25
+739,Evelyn Weber,Female,67,evelyn.weber27@example.com,+491652556438,Frankfurt,Clothing,T-Shirt,5,141.56,2025-10-29
+740,George Klein, MALE ,62,george.klein84@example.com,+491576670785,Cologne,Grocery,Tea,5,35.67,2025-07-05
+741,Olivia Weber,Female,66,olivia.weber56@example.com,+491579844989,Dresden,Home,Backpack,4,305.63,2026-02-14
+742,Aria Braun,Female,25,aria.braun57@example.com,,Frankfurt,Home,Backpack,3,177.82,2026-02-14
+743,Lucas Hartmann,Female,23,lucas.hartmann15@example.com,+491782749222,Munich,Sports,Football,6,171.81,2025-06-30
+744,OLIVIA KLEIN,Male,41,olivia.klein63@example.com,+491567674994,Munich,Sports,Dumbbells,1,64.4,2025-03-25
+745,Leo Zimmermann,Male,64,leo.zimmermann9@example.com,+491614059550,Dresden,Home,Blender,3,237.61,2026-07-13
+746,Isabella Meyer,Female,20,isabella.meyer61@example.com,+491733137109,Berlin,Grocery,Cereal,4,23.55,2026-04-01
+747,Lily Wagner,Female,49,lily.wagner49@example.com,+491704988070,Stuttgart,Home,BLENDER,1,76.19,2025-10-23
+748,Jack Zimmermann,Female,56,jack.zimmermann59@example.com,+491670110241,Berlin,Clothing,Jeans,5,341.8,2026-04-19
+749,Mia Meyer,Male,23,mia.meyer76@example.com,+491703831107,Dresden,Sports,Tennis Racket,3,299.97,2025/13/40
+750,Jacob Wagner,Male,34,jacob.wagner75@example.com,+491702535069,Cologne,Home,Blender,5,359.57,2025-08-28
+751,Nora Schulz,Male,25,nora.schulz29@example.com,+491553678967,Hamburg,Grocery,Chocolate,1,5.07,2025-06-19
+752,Chloe Meyer,Female,66, CHLOE.MEYER7@EXAMPLE.COM ,+491790480259,Munich,Electronics,Laptop,2,1942.08,2026-09-19
+753,Ava Fischer,Male,53,ava.fischer57@example.com,+491740733308,Stuttgart,Home,Chair,3,340.27,2026-01-21
+754,Grace Wagner,Male,60,grace.wagner96@example.com,+491577862484, munich ,Home,Lamp,1,38.65,2026-04-30
+755,Amelia Hoffmann,Male,53,amelia.hoffmann86@example.com,+491703230301,Stuttgart,Home,Backpack,3,180.68,2025-03-18
+756,Noah Kruger,Female,46,noah.kruger83@example.com,+491717421887,Berlin,Electronics,Smartphone,2,1583.53,2025-07-26
+757,Lucas Koch,Male,25,lucas.koch94@example.com,+491545346092,Stuttgart,Home,Backpack,6,411.89,2025-08-01
+758,Jacob Kruger,Female,23,jacob.kruger86@example.com,+491611853023,Frankfurt,Grocery,Olive Oil,5,50.21,2026-12-14
+759,  Harry Neumann ,Male,30,harry.neumann31@example.com,+491651947658,Stuttgart,Clothing,Dress,1,104.3,2025-10-20
+760,Mia Koch,Male,48,mia.koch3@example.com,+491582788261,Cologne,Grocery,Chocolate,6,34.1,2026-05-29
+761,Mason Kruger,Male,32,mason.kruger26@example.com,+491747325917,Dresden,Electronics,Earbuds,6,592.46,2026-01-21
+762,Ava Krause,Female,25,ava.krause25@example.com,+491799454148,Berlin,Clothing,T-Shirt,4,111.45,2026-07-09
+763,Leo Braun,Male,40,leo.braun36@example.com,+491625076532,Stuttgart,Clothing,Jeans,1,80.57,2025-10-18
+764,Harper Koch,Male,27,harper.koch84@example.com,+491701169989,Dresden,Grocery,Olive Oil,1,11.99,2026-07-18
+765,Noah Schulz,Female,57,noah.schulz38@example.com,+491629795971,Hamburg,Grocery,Coffee,5,50.17,2026-04-01
+766,Oscar Richter,Female,39,oscar.richter33@example.com,+491678266123,Dresden,Clothing,Hoodie,1,63.9,2025-07-16
+767,Noah Zimmermann,Female,44,missing.com,+491718622654,Frankfurt,Electronics,Monitor,3,942.21,2026-07-19
+768,Mason Krause,Female,47,mason.krause85@example.com,+491624969582,Frankfurt,Grocery,Tea,6,46.14,2025-11-22
+769,Sofia Schulz,Female,21,sofia.schulz38@example.com,+491656624068,Hamburg,Clothing,Hoodie,2,106.62,2026-05-26
+770,Henry Zimmermann,Male,61,henry.zimmermann16@example.com,+491749792062,Stuttgart,Electronics,Earbuds,2,205.75,2025-03-23
+771,Harry Krause,Female,32,harry.krause78@example.com,+491554264678,Frankfurt,Grocery,Tea,5,33.17,2026-09-26
+772,Hannah Becker,Male,66,hannah.becker61@example.com,+491674525635,Munich,Grocery,Pasta,4,17.2,2026-01-14
+773,Ava Wolf,Female,62,ava.wolf16@example.com,+491519565158,Munich,Clothing,T-Shirt,1,30.05,2025-01-24
+774,Lucy Koch,Female,,lucy.koch42@example.com,+491525267066,Dresden,Clothing,Jacket,5,586.51,2026-12-21
+775,MIA FISCHER,Female,35,mia.fischer17@example.com,+491638470107,Hamburg,Home,Chair,6,818.38,2025-08-29
+776,Olivia Braun,Female,53,olivia.braun94@example.com,+491786834612,Hamburg,Home,Backpack,4,"1,299.99",2025-10-18
+777,Daniel Schneider, FEMALE ,34,daniel.schneider68@example.com,+491708801698,Stuttgart,Home,Bedsheet,3,103.95,2025-04-15
+778,Oscar Richter,Male,35,oscar.richter69@example.com,+491592524061,Cologne,Electronics,Earbuds,1,92.57,2026-01-30
+779,George Krause,Male,56,george.krause80@example.com,+491619377478,Stuttgart,Clothing,Jeans,6,373.97,2026-11-21
+780,Lily Meyer,Female,45,lily.meyer41@example.com,+491577793772,Dresden,Sports,Dumbbells,6,271.18,2025-03-16
+781,Oliver Koch,Female,25,oliver.koch73@example.com,+491632464205,BERLIN,Grocery,Pasta,5,19.78,2025-02-27
+782,  Arthur Schulz ,Female,38,arthur.schulz79@example.com,+491563764528,Hamburg,Home,Blender,6,509.92,2025-03-03
+783,Sophia Neumann,Male,26,sophia.neumann29@example.com,+491770020027, berlin ,Home,Chair,1,124.73,2026-01-20
+784,Ava Braun,Female,58,ava.braun72@example.com,+491718834956,Cologne,Grocery,Pasta,4,17.97,2025-04-07
+785,Arthur Neumann,Female,47,arthur.neumann61@example.com,+491564016798,Munich,Clothing,Dress,4,408.48,2026-02-27
+786,Oliver Becker,Female,44,oliver.becker93@example.com,+491708698056,Stuttgart,Clothing,Jacket,6,716.77,2025-07-10
+787,Arthur Zimmermann,Male,44,arthur.zimmermann80@example.com,+491772355843,Frankfurt,Electronics,Laptop,6,4925.2,2026-08-07
+788,Hannah Wagner,Female,22,hannah.wagner8@example.com,+491521961293,Munich,Grocery,Cereal,1,6.45,2026-07-10
+789,Nora Meyer,Female,58,nora.meyer77@example.com,+491756848735,Berlin,Sports,Water Bottle,6,101.01,2025-08-29
+790,Ella Kruger,Female,49,ella.kruger33@example.com,+491609664051,Cologne, Clothing ,Jeans,2,123.12,2025-11-09
+791,Emma Zimmermann,Female,59,emma.zimmermann89@example.com,+491614622913,Hamburg,Electronics,Smartwatch,2,360.85,01/04/2026
+792,George Koch,Male,22,george.koch3@example.com,+491656689552,Dresden,Home,Chair,6,786.66,2025-04-01
+793,Liam Zimmermann,Female,62,liam.zimmermann78@example.com,+491660318420,Hamburg,home,Backpack,4,224.65,2026-03-01
+794,Grace Richter,Male,22,grace.richter62@example.com,+491727601847,Frankfurt,Electronics,Keyboard,3,186.39,2026-07-03
+795,Ella Klein,Female,24,ella.klein89@example.com,12345,Frankfurt,Electronics,Smartphone,5,3820.26,2026-03-28
+796,Jacob Schmidt,Female,43,jacob.schmidt87@example.com,+491790990713,Dresden,Sports,Tennis Racket,6,659.66,2026-03-12
+797,Amelia Kruger,Female,57,amelia.kruger76@example.com,+491539895209,Munich,Grocery,Tea,5,39.83,2026-09-30
+798,Daniel Klein,Female,59,daniel.klein3@example.com,+491663983677,Frankfurt,Clothing,Jacket,2,265.75,2025-05-11
+799,Lily Braun,Female,38, LILY.BRAUN1@EXAMPLE.COM ,+491661959455,Munich,Clothing,Hoodie,4,226.63,2026-06-11
+799,Lily Braun,Female,38, LILY.BRAUN1@EXAMPLE.COM ,+491661959455,Munich,Clothing,Hoodie,4,226.63,2026-06-11
+801,Lucas Hoffmann,Female,57,lucas.hoffmann73@example.com,+491585683975,Dresden,Sports,Tennis Racket,zero,161.49,2026-07-08
+802,George Zimmermann,Female,41,george.zimmermann20@example.com,+491783158509,Frankfurt,Clothing,Dress,6,505.18,2025-03-10
+803,Evelyn Hartmann,Male,28,evelyn.hartmann84@example.com,+491760039855,Munich,Clothing,Jacket,6,744.87,2026-03-23
+804,Arthur Wolf,Male,15,arthur.wolf88@example.com,+491637573745,Cologne,Sports,Yoga Mat,3,102.11,2026-03-05
+805,  Scarlett Zimmermann ,Female,32,scarlett.zimmermann66@example.com,+491749981794,Munich,Electronics,Smartwatch,4,773.41,2026-09-08
+806,ARIA KLEIN,Female,46,aria.klein37@example.com,+491628323817,Cologne,Sports,Football,1,32.54,2026-06-29
+807,Evelyn Wagner,Male,31,evelyn.wagner20@example.com,+491536782325,Hamburg,Sports,Football,1,34.28,2025-12-03
+808,Harry Hoffmann,Female,33,harry.hoffmann5@example.com,+491569421263,Munich,Grocery,Olive Oil,4,41.29,2025-03-03
+809,Noah Wagner,Female,42,noah.wagner65@example.com,+491715833346,Stuttgart,Grocery,Coffee,6,83.92,2026-12-09
+810,Olivia Becker,Female,21,olivia.becker12@example.com,+491775600204,Munich,Clothing,T-Shirt,4,136.17,2025-06-04
+811,Jacob Wolf,Female,21,jacob.wolf4@example.com,+491764144151,Cologne,Clothing,Jacket,1,140.66,2025-04-04
+812,Nora Schneider,Female,58,nora.schneider27@example.com,+491629660632, hamburg ,Grocery,Tea,2,15.28,2026-12-27
+813,Amelia Koch,Female,66,amelia.koch68@example.com,+491654297834,Munich,Grocery,Cereal,3,16.42,2025-10-20
+814,Henry Becker, MALE ,47,henry.becker77@example.com,+491520971878,Cologne,Electronics,Keyboard,3,208.17,2025-02-03
+815,Charlotte Koch,Male,67,charlotte.koch14@example.com,+491796576015,Dresden,Home,Bedsheet,2,73.12,2026-09-03
+816,Leo Meyer,Female,41,leo.meyer15@example.com,+491593995829,Stuttgart,Clothing,Sneakers,2,218.01,2026-09-16
+817,Harper Wolf,Female,,harper.wolf16@example.com,+491689765445,Frankfurt,Home,Chair,5,622.77,2025-11-10
+818,Evelyn Krause,Female,63,evelyn.krause44@example.com,+491670296810,Stuttgart,Home,Chair,1,130.99,2026-04-26
+819,Chloe Kruger,Female,38,chloe.kruger6@example.com,+491737585781,Frankfurt,Clothing,T-Shirt,6,142,2026-03-17
+820,Hannah Braun,Male,20,hannah.braun16@example.com,+491616238107,Hamburg,Clothing,Sneakers,6,601.46,2025-10-29
+821,Ella Kruger,Female,28,ella.kruger98@example.com,+491729801017,Stuttgart,Sports,Water Bottle,5,95.26,2025-03-22
+822,Sofia Schmidt,Male,45,sofia.schmidt55@example.com,+491556580653,Munich,Clothing,Hoodie,6,399.32,2025-07-25
+823,Lucy Weber,Male,42,lucy.weber33@example.com,+491635689670,Berlin,Clothing,Jeans,5,301.98,2026-05-21
+824,Emma Klein,Male,57,emma.klein79@example.com,+491774961439,Berlin,Sports,Football,4,105.01,2026-03-14
+825,Leo Weber,Female,57,leo.weber30@example.com,+491553102850,Stuttgart,Electronics,Earbuds,3,245.88,2026-01-04
+826,Olivia Kruger,Male,46,missing.com,+491795607660,Munich,Electronics,Keyboard,2,98.11,2025-02-26
+827,Grace Zimmermann,Female,23,grace.zimmermann6@example.com,+491633040225,Hamburg,Home,Blender,5,327.92,2025-05-07
+828,  Jack Meyer ,Male,22,jack.meyer83@example.com,+491643571045,Munich,Clothing,Jacket,3,347.75,2025-08-02
+829,Mason Krause,Male,41,mason.krause2@example.com,+491531055874,Berlin,Electronics,Laptop,5,3855.49,2025-04-05
+830,Hannah Schulz,Female,52,hannah.schulz4@example.com,+491657978066,Hamburg,Clothing,SNEAKERS,6,548.06,2026-07-15
+831,Amelia Schmidt,Female,21,amelia.schmidt13@example.com,+491738278307,Hamburg,Clothing,Hoodie,5,260.06,2026-07-01
+832,Grace Klein,Male,33,grace.klein58@example.com,+491776328864,Cologne,Home,Bedsheet,4,143.64,2025-06-18
+833,Sofia Schneider,Male,26,sofia.schneider73@example.com,+491743107807,Dresden,Clothing,T-Shirt,4,95.89,2026-10-19
+834,Emma Richter,Male,40,emma.richter91@example.com,+491514852765,Stuttgart,Home,Desk,6,1378.95,2025-07-14
+835,Mia Weber,Male,34,mia.weber48@example.com,+491649254517,Dresden,Clothing,Sneakers,6,705.26,2026-06-19
+836,Ethan Weber,Female,37,ethan.weber15@example.com,+491646893250,Berlin,Electronics,Laptop,3,2662.46,2025-11-07
+837,HANNAH KLEIN,Male,47,hannah.klein53@example.com,+491645202074,Cologne,Sports,Dumbbells,6,278.45,2025-12-12
+838,Lucas Richter,Male,53,lucas.richter63@example.com,+491670507784,Cologne,Grocery,Cereal,2,12.52,2026-11-03
+839,Arthur Koch,Male,68,arthur.koch85@example.com,+491690625840,Stuttgart,Home,Bedsheet,3,112.36,2026-05-23
+840,Ethan Klein,Male,65,ethan.klein27@example.com,+491777187266,Frankfurt,Clothing,Sneakers,1,117.75,2025-05-05
+841,Isabella Zimmermann,Male,21,isabella.zimmermann71@example.com,+491542291191, cologne ,Home,Bedsheet,2,89.42,2026-11-24
+842,Freddie Koch,Male,20,freddie.koch15@example.com,+491649630537,Stuttgart,Grocery,Chocolate,5,25.15,2025-04-13
+843,Mia Lehmann,Male,32,mia.lehmann49@example.com,+491532469828,Cologne,Grocery,Olive Oil,1,10.28,2025-05-25
+844,Nora Wagner,Male,49,nora.wagner39@example.com,+491657436662,Munich,Clothing,Jeans,3,216.01,2025-06-26
+845,Oliver Lehmann,Male,56,oliver.lehmann67@example.com,+491668285845,Cologne,Electronics,Earbuds,5,469.24,2025-12-31
+846,Elijah Braun,Female,39, ELIJAH.BRAUN68@EXAMPLE.COM ,+491640737942,Cologne,Electronics,Smartphone,4,2314.72,2025-10-24
+847,James Becker,Male,68,james.becker20@example.com,+491621621261,Stuttgart,Sports,Running Shoes,3,295.56,2025-03-16
+848,Grace Schulz,Male,46,grace.schulz27@example.com,,Cologne,Sports,Water Bottle,2,30.64,2026-12-17
+849,Sophia Hartmann,Male,30,sophia.hartmann42@example.com,+491697003430,Berlin,Grocery,Pasta,5,19.18,2026-06-12
+850,Ethan Becker,Female,33,ethan.becker30@example.com,+491751340069,Hamburg,Home,Desk,5,1470.65,2025-06-26
+851,  Evelyn Neumann ,female,20,evelyn.neumann64@example.com,+491759992675,Cologne,Home,Chair,6,775.36,2025-07-28
+852,Mason Neumann,Female,62,mason.neumann4@example.com,+491678960197,munich,Home,Chair,5,585.04,2026-10-11
+853,Ethan Krause,Female,36,ethan.krause5@example.com,+491578476399,Stuttgart,Home,Bedsheet,3,120.02,2025-01-28
+854,Arthur Becker,Female,42,arthur.becker24@example.com,+491695780389,Cologne,electronics,Earbuds,2,163.81,2026-06-30
+855,Hannah Schmidt,Female,65,hannah.schmidt10@example.com,+491709214406,Hamburg,Grocery,Tea,5,32.27,2025-01-08
+856,Mia Meyer,Male,27,mia.meyer52@example.com,+491790353795,Berlin,Electronics,Keyboard,3,156.06,invalid
+857,Lucas Neumann,Male,28,lucas.neumann76@example.com,+491765950252,Hamburg,Electronics,Smartwatch,5,810.16,2025-07-05
+858,Mason Kruger,Male,23,mason.kruger32@example.com,+491708669418,Dresden,Clothing,Jeans,1,70.62,2025-02-10
+859,Ella Hoffmann,Female,27,ella.hoffmann26@example.com,+491639058274,Stuttgart,Home,Lamp,2,83.39,2026-05-31
+860,Noah Becker,Male,unknown,noah.becker50@example.com,+491797840363,Berlin,Home,Lamp,1,39.03,2025-08-30
+861,Leo Meyer,Male,47,leo.meyer62@example.com,+491535341979,Cologne,Home,Desk,6,1533.7,2025-04-24
+862,Isabella Wolf,Male,65,isabella.wolf48@example.com,+491724111853,Munich,Home,Chair,6,787.17,2026-11-12
+863,Leo Schulz,Male,21,leo.schulz90@example.com,+491770172949,Stuttgart,Sports,Dumbbells,2,122.96,2026-10-29
+864,Isabella Neumann,Male,55,isabella.neumann14@example.com,+491645640225,Munich,Home,Backpack,3,192.32,2025-07-29
+865,Freddie Braun,Female,31,freddie.braun81@example.com,+491643930144,Berlin,Grocery,Pasta,5,17.2,2025-01-08
+866,Ethan Hartmann,Female,39,ethan.hartmann21@example.com,+491670255614,Cologne,Clothing,Jeans,1,63.13,2025-01-14
+867,Ava Neumann,Male,18,ava.neumann23@example.com,+491712627923,Berlin,Home,Blender,1,68.2,2026-02-01
+868,HANNAH HOFFMANN,Female,62,hannah.hoffmann49@example.com,+491522710759,Stuttgart,Electronics,Monitor,3,837.98,2025-08-05
+869,Isabella Meyer,Male,62,isabella.meyer41@example.com,+491547985675,Stuttgart, Grocery ,Pasta,1,4.43,2026-03-03
+870,Scarlett Hartmann,Male,36,scarlett.hartmann48@example.com,+491767219141, stuttgart ,Clothing,Dress,6,555.83,2026-01-25
+871,Ava Klein,Male,15,ava.klein63@example.com,+491729897509,Hamburg,Electronics,Monitor,3,1042.29,2025-04-22
+872,Liam Weber,Female,37,liam.weber20@example.com,+491551491845,Cologne,Grocery,Tea,2,16.64,2025-12-08
+873,Oliver Klein,Male,64,oliver.klein95@example.com,+491725651933,Frankfurt,Grocery,Chocolate,2,-100,2026-04-05
+874,  Ethan Weber ,Female,60,ethan.weber4@example.com,+491608632895,Hamburg,Home,Desk,6,1613.95,2025-03-02
+875,Mia Schneider,Female,20,mia.schneider10@example.com,+491676014503,Berlin,Electronics,Keyboard,6,292.03,2025-02-13
+876,Lucas Meyer,Female,22,lucas.meyer42@example.com,+491793777220,Hamburg,Clothing,Sneakers,2,193.02,2025-03-25
+877,Chloe Weber,Female,57,chloe.weber31@example.com,+491645031963,Berlin,Grocery,Cereal,4,19.86,2025-09-08
+878,Liam Krause,Female,53,liam.krause83@example.com,+491582482634,Frankfurt,Electronics,Monitor,3,776.23,2026-03-10
+879,Emma Meyer,Male,68,emma.meyer14@example.com,+491595423155,Dresden,Electronics,Laptop,5,4253.74,2026-03-12
+880,Leo Hoffmann,Male,55,leo.hoffmann89@example.com,+491601671811,Berlin,Clothing,Sneakers,2,253.67,2026-07-26
+881,Ella Lehmann,Female,48,ella.lehmann42@example.com,+491741894388,Frankfurt,Home,Desk,3,740.05,2025-02-07
+882,Sophia Braun,Female,37,sophia.braun70@example.com,+491782321375,Berlin,Sports,Football,6,201.7,2026-05-01
+883,Scarlett Kruger,Female,39,scarlett.kruger58@example.com,+491553670692,Cologne,Electronics,Smartphone,1,615.9,2026-04-07
+884,Noah Zimmermann,Female,57,noah.zimmermann36@example.com,+491614379314,Berlin,Grocery,Coffee,3,32.67,2025-03-17
+885,Mason Wagner,Female,57,customer@,+491569309725,Dresden,Electronics,Earbuds,3,242.32,2025-03-23
+886,Ava Schulz,Female,41,ava.schulz69@example.com,+491626453772,Munich,Grocery,Chocolate,6,32.18,2026-11-12
+887,Daniel Krause,Female,39,daniel.krause35@example.com,+491600273705,Cologne,Electronics,Keyboard,6,348.15,2026-08-05
+888,Ella Fischer,F,60,ella.fischer30@example.com,+491604244919,Cologne,Home,Chair,1,119.24,2026-01-10
+889,Mia Schmidt,Female,61,mia.schmidt18@example.com,+491631510525,Frankfurt,Home,Desk,4,801.82,2025-09-15
+890,Chloe Becker,Male,54,chloe.becker66@example.com,+491510195789,Berlin,Clothing,Jacket,10 units,502.04,2026-10-02
+891,James Schulz,Male,23,james.schulz43@example.com,+491566926380,Munich,Electronics,Earbuds,4,293.48,2026-10-28
+892,Harper Braun,Female,35,harper.braun98@example.com,+491780809245,Cologne,Electronics,Laptop,3,2711.17,2026-02-04
+893,Lucas Klein,Male,26, LUCAS.KLEIN7@EXAMPLE.COM ,+491754103012,Dresden,Grocery,Coffee,3,43.2,2026-09-23
+894,Emma Schulz,Male,31,emma.schulz47@example.com,+491706192990,Cologne,Clothing,Hoodie,6,390.28,2026-04-28
+895,Harry Krause,Male,40,harry.krause27@example.com,+491555778632,Dresden,Clothing,Sneakers,5,498.21,2026-04-29
+896,Ethan Krause,Female,46,ethan.krause48@example.com,+491588795778,Cologne,Home,Lamp,2,85.68,2026-03-09
+897,  Theo Schulz ,Male,26,theo.schulz68@example.com,+491529400434,Munich,Clothing,Jacket,5,683.97,2026-09-27
+898,Noah Koch,Male,63,noah.koch51@example.com,+491697941979,Stuttgart,Grocery,Tea,5,34.24,2025-04-02
+899,LILY NEUMANN,Male,52,lily.neumann46@example.com,+491727084330, dresden ,Sports,Water Bottle,3,54.09,2026-12-19
+899,LILY NEUMANN,Male,52,lily.neumann46@example.com,+491727084330, dresden ,Sports,Water Bottle,3,54.09,2026-12-19
+901,Nora Richter,Male,54,nora.richter1@example.com,,Berlin,Sports,Dumbbells,2,125.14,2026-11-06
+902,Isabella Neumann,Female,49,isabella.neumann42@example.com,+491794592418,Stuttgart,Grocery,Coffee,3,39.45,2025-04-23
+903,Henry Weber,Male,unknown,henry.weber68@example.com,+491634921902,Munich,Electronics,Smartwatch,5,1104.89,2026-12-12
+904,Hannah Wolf,Male,40,hannah.wolf4@example.com,+491760866215,Berlin,Home,Blender,5,328.6,15/10/2025
+905,Liam Becker,Male,30,liam.becker15@example.com,+491562375084,Hamburg,Clothing,Dress,3,276.87,2025-02-17
+906,Aria Weber,Female,31,aria.weber37@example.com,+491633571531,Stuttgart,Clothing,Jacket,4,425.64,2025-07-30
+907,Lucy Krause,Female,48,lucy.krause86@example.com,+491513749859,Cologne,Sports,Water Bottle,4,70.86,2026-12-06
+908,Jacob Koch,Male,45,jacob.koch60@example.com,+491717333635,Dresden,Home,Chair,5,569.74,2026-06-09
+909,Ava Krause,Female,31,ava.krause17@example.com,+491799776792,Dresden,Grocery,Pasta,1,3.46,2025-09-20
+910,Chloe Wolf,Male,38,chloe.wolf99@example.com,+491609363376,Berlin,Sports,Running Shoes,6,654.66,2025-03-23
+911,Emma Meyer,Male,62,emma.meyer96@example.com,+491778951644,Hamburg,Electronics,Smartwatch,5,921.17,2025-09-20
+912,Leo Krause,Male,66,leo.krause29@example.com,+491746916785,Berlin,Home,Chair,3,388.39,2025-03-03
+913,Ella Schneider,Male,54,ella.schneider60@example.com,+491514014490,Munich,Sports,FOOTBALL,1,27.41,2026-03-08
+914,Freddie Lehmann,Male,24,freddie.lehmann51@example.com,+491573847794,Frankfurt,Home,Bedsheet,3,111.41,2025-07-07
+915,Harper Braun,Female,37,harper.braun76@example.com,+491640381636,Dresden,home,Chair,3,337.04,2025-12-18
+916,Hannah Kruger,Male,62,hannah.kruger14@example.com,+491590762526,Frankfurt,Clothing,T-Shirt,1,29.08,2025-04-28
+917,Aria Klein,Male,24,aria.klein53@example.com,+491796558078,Stuttgart,Sports,Water Bottle,4,69.75,2026-02-21
+918,George Richter,Male,34,george.richter79@example.com,+491564181970,Dresden,Clothing,Jeans,5,281.54,2026-08-21
+919,Sophia Weber,Male,64,sophia.weber28@example.com,+491645585587,Hamburg,Clothing,Jacket,4,565.89,2026-02-24
+920,  Harper Koch ,Male,68,harper.koch14@example.com,+491657224626,Munich,Clothing,Sneakers,2,252.99,2026-11-14
+921,Mia Hoffmann,Male,25,mia.hoffmann72@example.com,+491777644018,Munich,Electronics,Earbuds,5,518.95,2025-07-31
+922,Nora Weber,Female,29,nora.weber62@example.com,+491791937504,Munich,Grocery,Olive Oil,3,27.8,2026-07-30
+923,Mason Koch,Male,61,mason.koch93@example.com,+491694025292,munich,Clothing,Sneakers,4,489.82,2026-05-28
+924,Mason Meyer,Female,27,mason.meyer70@example.com,+491713680780,Cologne,Home,Bedsheet,2,83.5,2025-03-22
+925,Ethan Schulz,female,28,ethan.schulz15@example.com,+491732531165,Dresden,Clothing,Hoodie,4,268.68,2025-08-19
+926,Jack Neumann,Female,52,jack.neumann46@example.com,+491676613223,Hamburg,Sports,Yoga Mat,6,239.28,2026-07-01
+927,Henry Neumann,Female,66,henry.neumann7@example.com,+491796541677,Hamburg,Clothing,Jeans,6,415.48,2025-03-22
+928,Theo Hoffmann,Male,42,theo.hoffmann34@example.com,+491567927207, stuttgart ,Grocery,Chocolate,3,14.12,2026-08-08
+929,Olivia Hoffmann,Female,68,olivia.hoffmann51@example.com,+491658957342,Stuttgart,Home,Backpack,4,275.85,2026-04-17
+930,EVELYN LEHMANN,Male,21,evelyn.lehmann25@example.com,+491748047393,Munich,Clothing,Jeans,1,71.22,2025-09-25
+931,Grace Weber,Female,28,grace.weber97@example.com,+491659476181,Munich,Sports,Football,2,52.75,2025-02-15
+932,Lucy Wagner,Male,37,lucy.wagner23@example.com,+491520030068,Berlin,Clothing,T-Shirt,2,47.16,2026-12-31
+933,Oscar Zimmermann,Male,20,oscar.zimmermann47@example.com,+491793661842,Cologne,Electronics,Laptop,4,3130.18,2026-12-03
+934,Oliver Wagner,Female,54,oliver.wagner67@example.com,+491608319356,Hamburg,Home,Backpack,3,184.17,2026-06-25
+935,Leo Hoffmann,Male,28,leo.hoffmann75@example.com,+491567791828,Dresden,Clothing,Hoodie,4,277.06,2025-02-03
+936,Ella Meyer,Female,38,ella.meyer56@example.com,+491623711143,Munich,Sports,Water Bottle,2,31.68,2025-11-15
+937,Aria Lehmann,Male,53,aria.lehmann98@example.com,+491617741127,Berlin,Electronics,Earbuds,5,415.97,2026-04-12
+938,Henry Koch,Male,15,henry.koch91@example.com,+491798199958,Stuttgart,Grocery,Olive Oil,4,44.18,2025-08-24
+939,Scarlett Weber,Female,65,scarlett.weber7@example.com,+491661542716,Berlin,Home,Blender,3,209.86,2026-02-13
+940,Harper Hoffmann,Female,45, HARPER.HOFFMANN66@EXAMPLE.COM ,+491622022300,Stuttgart,Grocery,Chocolate,5,23.91,2026-11-06
+941,Charlotte Meyer,Male,40,charlotte.meyer21@example.com,+491734116485,Stuttgart,Clothing,Dress,1,87.39,2025-07-05
+942,Harry Hartmann,Male,56,harry.hartmann21@example.com,+491545339604,Frankfurt,Home,Backpack,6,416.42,2026-02-14
+943,  Scarlett Zimmermann ,Female,44,scarlett.zimmermann56@example.com,+491570242721,Munich,Grocery,Coffee,3,31.99,2025-10-07
+944,Lucas Becker,Male,43,,+491550446935,Cologne,Electronics,Laptop,4,4257.44,2025-02-17
+945,Mia Schneider,Female,67,mia.schneider50@example.com,+491764115247,Frankfurt,Grocery,Coffee,2,24.2,2026-03-01
+946,Charlotte Meyer,Female,unknown,charlotte.meyer6@example.com,+491547459921,Dresden,Home,Desk,6,1792.79,2025-06-29
+947,Oliver Koch,Male,65,oliver.koch35@example.com,+491626756101,Munich,Sports,Running Shoes,1,109.16,2025-10-28
+948,Amelia Hartmann,Female,55,amelia.hartmann92@example.com,+491575300787,Dresden, Sports ,Water Bottle,2,39.83,2025-01-28
+949,Freddie Zimmermann,Male,33,freddie.zimmermann43@example.com,+491675204360,Dresden,Home,Chair,3,396.69,2025-09-21
+950,Emma Schmidt,Male,49,emma.schmidt19@example.com,+491601951197,Berlin,Sports,Dumbbells,2,102.89,2025-09-09
+951,Hannah Meyer,Male,31,hannah.meyer25@example.com,+491586252755,Munich,Home,Lamp,2,93.49,2025-09-06
+952,Ella Braun,Female,30,ella.braun1@example.com,+491748829558,Berlin,Sports,Water Bottle,6,94.59,2025-05-02
+953,Oscar Schmidt,Female,19,oscar.schmidt23@example.com,+491589111497,Berlin,Home,Backpack,6,377.59,2026-09-20
+954,Mia Fischer,Male,61,mia.fischer57@example.com,49 151 000,Stuttgart,Clothing,Jacket,1,135.56,2025-07-29
+955,Arthur Weber,Female,57,arthur.weber63@example.com,+491573172361,Dresden,Home,Chair,3,442.97,2026-04-26
+956,Henry Hartmann,Male,47,henry.hartmann24@example.com,+491569176430,Berlin,Grocery,Olive Oil,6,71.96,2025-04-28
+957,Chloe Schneider,Male,52,chloe.schneider49@example.com,+491744557275, frankfurt ,Grocery,Coffee,2,22.65,2025-08-24
+958,Amelia Schmidt,Male,20,amelia.schmidt91@example.com,+491640254159,Dresden,Home,Desk,4,883.16,2025-07-31
+959,Scarlett Wagner,Female,20,scarlett.wagner3@example.com,+491590891234,Dresden,Grocery,Olive Oil,5,62.74,2026-01-14
+960,Elijah Fischer,Female,43,elijah.fischer16@example.com,+491644973611,Berlin,Electronics,Smartwatch,1,234.27,2025-09-13
+961,LILY BECKER,Male,36,lily.becker32@example.com,+491693960324,Dresden,Electronics,Smartphone,2,1202.55,2025-06-14
+962,Elijah Zimmermann,male,32,elijah.zimmermann20@example.com,+491619691898,Stuttgart,Electronics,Earbuds,6,531.98,2025-11-29
+963,Ella Becker,Male,59,ella.becker64@example.com,+491627095778,Dresden,Grocery,Cereal,3,18.04,2025/13/40
+964,Chloe Krause,Female,33,chloe.krause73@example.com,+491719260363,Cologne,Grocery,Chocolate,4,17.04,2026-07-21
+965,Emma Wagner,Male,18,emma.wagner76@example.com,+491518148132,Dresden,Grocery,Olive Oil,5,60.62,2026-08-07
+966,  Mason Zimmermann ,Male,59,mason.zimmermann50@example.com,+491751431002,Dresden,Sports,Tennis Racket,3,333.63,2025-02-13
+967,Harry Braun,Male,57,harry.braun90@example.com,+491540177160,Dresden,Sports,Dumbbells,5,311.07,2026-11-22
+968,Henry Hoffmann,Male,21,henry.hoffmann51@example.com,+491684160747,Berlin,Electronics,Laptop,2,1472.78,2026-11-05
+969,Sophia Wolf,Male,38,sophia.wolf37@example.com,+491769324841,Dresden,Sports,Dumbbells,5,266.09,2026-06-28
+970,Amelia Schulz,Male,58,amelia.schulz53@example.com,+491562259369,Frankfurt,Clothing,Hoodie,5,"1,299.99",2025-06-04
+971,Charlotte Schulz,Female,39,charlotte.schulz25@example.com,+491600585034,Dresden,Clothing,T-Shirt,5,127.58,2026-12-03
+972,Daniel Schulz,Female,40,daniel.schulz95@example.com,+491797668693,Stuttgart,Clothing,Sneakers,5,495.96,2025-11-07
+973,Jacob Wolf,Male,45,jacob.wolf62@example.com,+491672439698,Dresden,Grocery,Cereal,1,7.12,2026-04-28
+974,George Wolf,Male,29,george.wolf48@example.com,+491674617295,Frankfurt,Sports,Tennis Racket,3,241.23,2025-03-09
+975,Evelyn Wagner,Female,43,evelyn.wagner69@example.com,+491771443292,Munich,Home,Lamp,1,40.13,2026-06-02
+976,Lucy Wagner,Female,63,lucy.wagner19@example.com,+491726159399,Cologne,electronics,Laptop,2,1946.72,2026-02-25
+977,Mason Fischer,Male,58,mason.fischer18@example.com,+491704842398,Stuttgart,Home,Chair,2,227.21,2026-07-10
+978,Grace Klein,Male,32,grace.klein79@example.com,+491528115369,Munich,Electronics,Laptop,6,5879.16,2025-02-26
+979,Evelyn Kruger,Male,23,evelyn.kruger10@example.com,+491608027823,Dresden,Clothing,Jeans,10 units,451.54,2026-02-14
+980,Elijah Zimmermann,Male,35,elijah.zimmermann98@example.com,+491682198510,Cologne,Electronics,Smartwatch,6,1246.66,2026-01-17
+981,Charlotte Koch,Female,47,charlotte.koch83@example.com,+491650202642,Stuttgart,Clothing,Jacket,2,278.34,2025-09-23
+982,Isabella Wolf,Male,59,isabella.wolf20@example.com,+491602601227,Munich,Sports,Tennis Racket,1,99.41,2026-10-11
+983,Sofia Krause,Male,22,sofia.krause27@example.com,+491756461445,Munich,Sports,Tennis Racket,6,639.54,2026-03-20
+984,Oliver Krause,Female,38,oliver.krause46@example.com,+491792142512,Stuttgart,Electronics,Keyboard,1,60.44,2026-08-27
+985,James Braun,Male,32,james.braun24@example.com,+491573827738,Stuttgart,Clothing,Dress,3,309.03,2025-08-21
+986,Jack Becker,Female,21,jack.becker5@example.com,+491561364447, frankfurt ,Electronics,Monitor,6,1927.07,2025-05-18
+987,Chloe Richter,Male,47, CHLOE.RICHTER69@EXAMPLE.COM ,+491698403347,Cologne,Clothing,T-Shirt,6,180.84,2026-08-26
+988,Harry Krause,Female,53,harry.krause54@example.com,+491711722097,Hamburg,Sports,Tennis Racket,6,627.95,2026-07-26
+989,  Charlie Koch ,Male,unknown,charlie.koch48@example.com,+491717104355,Cologne,Grocery,Chocolate,6,34.73,2026-02-12
+990,Noah Fischer,Female,35,noah.fischer97@example.com,+491708955046,Dresden,Electronics,Earbuds,4,420.97,2025-05-27
+991,Evelyn Hoffmann,Female,50,evelyn.hoffmann44@example.com,+491555291468,Cologne,Home,Backpack,6,456.32,2026-05-13
+992,NOAH LEHMANN,Male,53,noah.lehmann64@example.com,+491542814225,Dresden,Electronics,Smartwatch,6,1166.67,2026-12-21
+993,Sofia Klein,Male,31,sofia.klein54@example.com,+491785123196,Berlin,Sports,Yoga Mat,5,152.88,2025-06-25
+994,James Wolf,Male,60,james.wolf66@example.com,+491566270392,Hamburg ,Sports,Football,2,46.65,2025-12-19
+995,Oscar Schulz,Male,34,oscar.schulz96@example.com,+491725791913,Dresden,Sports,Dumbbells,6,269.4,2026-03-01
+996,Evelyn Schneider,Female,54,evelyn.schneider23@example.com,+491735001416,Cologne,Home,BLENDER,5,452.51,2025-08-19
+997,Isabella Hartmann,Male,55,isabella.hartmann55@example.com,+491770858406,Cologne,Grocery,Tea,1,6.34,2025-10-30
+998,Charlie Kruger,Female,19,charlie.kruger72@example.com,+491581053182,Stuttgart,Grocery,Cereal,3,17.79,2025-11-30
+999,Harper Koch, FEMALE ,61,harper.koch52@example.com,+491681433282,Berlin,Clothing,Hoodie,6,346.76,2025-05-30
+1000,Noah Fischer,Male,45,noah.fischer17@example.com,+491730025365,Dresden,Clothing,Sneakers,6,676.95,2025-01-02
