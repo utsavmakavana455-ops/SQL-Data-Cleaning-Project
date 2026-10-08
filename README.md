@@ -35,10 +35,27 @@ The original `messy_customers` table is preserved. Cleaning is performed on a se
 ### 2. Data Cleaning
 
 - Removed extra spaces from customer names
+
 - Standardized gender values:
   - `M`, `male` → `Male`
   - `F`, `female` → `Female`
   - Invalid values → `NULL`
+
+- Standardized city values:
+  - `berlin` → `Berlin`
+  - `munich` → `Munich`
+  - `hamburg` → `Hamburg`
+  - `cologne` → `Cologne`
+  - `frankfurt` → `Frankfurt`
+  - `stuttgart` → `Stuttgart`
+  - `dresden` → `Dresden`
+
+- Standardized category values:
+  - `electronics` → `Electronics`
+  - `clothing` → `Clothing`
+  - `grocery` → `Grocery`
+  - `home` → `Home`
+  - `sports` → `Sports`
 
 ## SQL Concepts Used
 
