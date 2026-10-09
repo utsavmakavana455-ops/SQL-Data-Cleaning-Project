@@ -34,14 +34,12 @@ The original `messy_customers` table is preserved. Cleaning is performed on a se
 
 ### 2. Data Cleaning
 
-- Removed extra spaces from customer names
-
-- Standardized gender values:
+- **Customer Name Cleaning:** Removed extra spaces using `TRIM()`.
+- **Gender Standardization:**
   - `M`, `male` → `Male`
   - `F`, `female` → `Female`
   - Invalid values → `NULL`
-
-- Standardized city values:
+- **City Standardization:**
   - `berlin` → `Berlin`
   - `munich` → `Munich`
   - `hamburg` → `Hamburg`
@@ -49,27 +47,68 @@ The original `messy_customers` table is preserved. Cleaning is performed on a se
   - `frankfurt` → `Frankfurt`
   - `stuttgart` → `Stuttgart`
   - `dresden` → `Dresden`
-
-- Standardized category values:
+- **Category Standardization:**
   - `electronics` → `Electronics`
   - `clothing` → `Clothing`
   - `grocery` → `Grocery`
   - `home` → `Home`
   - `sports` → `Sports`
+- **Email Cleaning:** Trimmed and lowercased valid email addresses; invalid or blank values set to `NULL`.
+- **Phone Cleaning:** Removed leading and trailing spaces and converted blank values to `NULL`.
+- **Age Validation:** Set ages below 1 or above 100 to `NULL`.
+- **Quantity Validation:** Set zero or negative quantities to `NULL`.
 
 ## SQL Concepts Used
 
-- SELECT
-- WHERE
-- COUNT()
-- GROUP BY
-- HAVING
-- ORDER BY
-- CASE
-- TRIM()
-- LOWER()
-- UPDATE
-- NULL
+- `SELECT`
+- `WHERE`
+- `COUNT()`
+- `GROUP BY`
+- `HAVING`
+- `ORDER BY`
+- `CASE`
+- `TRIM()`
+- `LOWER()`
+- `REGEXP`
+- `NULLIF()`
+- `UPDATE`
+- `NULL`
 - Data profiling
+- Data cleaning
 - Data validation
 
+## Project Progress
+
+| Task | Status |
+|---|---|
+| Data profiling | Completed |
+| Customer name cleaning | Completed |
+| Gender standardization | Completed |
+| City standardization | Completed |
+| Category standardization | Completed |
+| Email cleaning | Completed |
+| Phone cleaning | Completed |
+| Age validation | Completed |
+| Quantity validation | Completed |
+| Amount validation | Next |
+| Date cleaning and conversion | Pending |
+| Duplicate removal using `ROW_NUMBER()` | Pending |
+| Final validation | Pending |
+| Before-and-after data quality report | Pending |
+
+## Tools Used
+
+- MySQL
+- MySQL Workbench
+- SQL
+- CSV dataset
+
+## Project Goal
+
+Transform a messy customer dataset into a consistent and reliable dataset ready for SQL analysis, reporting, and data visualization.
+
+## Author
+
+**Utsavkumar Makavana**
+
+MSc Data Science | Data Analytics | SQL | Python | AI/LLM Evaluation
