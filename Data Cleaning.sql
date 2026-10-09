@@ -119,3 +119,104 @@ SET category =
 FROM cleaned_customers
 GROUP BY category
 ORDER BY category;
+
+
+#Clean email addresses
+SELECT
+    record_id,
+    customer_name,
+    email
+FROM cleaned_customers
+WHERE email IS NULL
+   OR TRIM(email) = ''
+   OR LOWER(TRIM(email)) NOT REGEXP
+      '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$';
+UPDATE cleaned_customers
+SET email =
+    CASE
+        WHEN LOWER(TRIM(email)) REGEXP
+             '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$'
+        THEN LOWER(TRIM(email))
+
+        ELSE NULL
+    END;
+    
+    SELECT
+    COUNT(*) AS invalid_or_missing_emails
+FROM cleaned_customers
+WHERE email IS NULL;
+
+# Clean phone numbers
+SELECT
+    record_id,
+    phone
+FROM cleaned_customers
+WHERE phone IS NULL
+   OR TRIM(phone) = ''
+   OR phone NOT REGEXP '^[0-9+ -]+$';
+   
+   UPDATE cleaned_customers
+SET phone = NULLIF(TRIM(phone), '');
+
+#Clean Invalid Ages in MySQL
+
+SELECT
+    record_id,
+    customer_name,
+    age
+FROM cleaned_customers
+WHERE age < 1
+   OR age > 100;
+   
+ /* STEP 8: Replace Invalid Ages with NULL */
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE cleaned_customers
+SET age = NULL
+WHERE age < 1
+   OR age > 100;
+
+SET SQL_SAFE_UPDATES = 1;  
+
+/* Validate Age Cleaning */
+
+SELECT
+    COUNT(*) AS remaining_invalid_ages
+FROM cleaned_customers
+WHERE age < 1
+   OR age > 100;
+   
+   /* STEP 9: Identify Invalid Quantities */
+
+SELECT
+    record_id,
+    product,
+    quantity
+FROM cleaned_customers
+WHERE quantity <= 0;
+
+/* STEP 9: Replace Invalid Quantities with NULL */
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE cleaned_customers
+SET quantity = NULL
+WHERE quantity <= 0;
+
+SET SQL_SAFE_UPDATES = 1;
+
+/* Validate Quantity Cleaning */
+
+SELECT
+    COUNT(*) AS remaining_invalid_quantities
+FROM cleaned_customers
+WHERE quantity <= 0;
+
+#Also checked how many missing quantities remain:
+SELECT
+    COUNT(*) AS missing_quantities
+FROM cleaned_customers
+WHERE quantity IS NULL;
+
+
