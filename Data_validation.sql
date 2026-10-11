@@ -2,16 +2,19 @@
 USE sql_data_cleaning;
 
 -- 1. Check total cleaned records
+
 SELECT COUNT(*) AS total_cleaned_records
 FROM cleaned_customers;
 
 -- 2. Check missing or blank customer names
+
 SELECT COUNT(*) AS missing_names
 FROM cleaned_customers
 WHERE customer_name IS NULL
    OR TRIM(customer_name) = '';
 
 -- 3. Check extra spaces in names
+
 SELECT COUNT(*) AS names_with_extra_spaces
 FROM cleaned_customers
 WHERE customer_name <> TRIM(customer_name);
