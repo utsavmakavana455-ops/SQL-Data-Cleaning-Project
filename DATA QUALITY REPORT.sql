@@ -30,6 +30,7 @@ FROM cleaned_customers;
 
 
 -- 3. Compare invalid ages
+
 SELECT
     'Raw Data' AS dataset,
     SUM(age < 1 OR age > 100) AS invalid_ages
@@ -44,6 +45,7 @@ FROM cleaned_customers;
 
 
 -- 4. Compare invalid quantities
+
 SELECT
     'Raw Data' AS dataset,
     SUM(quantity <= 0) AS invalid_quantities
@@ -58,6 +60,7 @@ FROM cleaned_customers;
 
 
 -- 5. Compare invalid amounts
+
 SELECT
     'Raw Data' AS dataset,
     SUM(amount <= 0) AS invalid_amounts
