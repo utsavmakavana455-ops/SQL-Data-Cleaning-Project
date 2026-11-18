@@ -1,6 +1,6 @@
 # SQL Data Cleaning Project
 
-A practical **MySQL data cleaning and validation project** using a messy customer sales dataset.
+**MySQL data cleaning and validation project** using a messy customer sales dataset.
 
 ## Project Overview
 
